@@ -1,48 +1,74 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
+
+import IikoService from "../../services/iikoService";
 
 import Heading from '../heading/Heading';
-import Button from '../button/Button';
+import ButtonGroup from '../buttonGroup/ButtonGroup';
+import Mapp from '../mapp/Mapp';
 
 import './app.scss';
 
 
 function App() {
-	/*Хранятся рефы кнопок, чтобы снимать className active */
-	const [buttonRefs, setButtonsRefs] = useState([])
-	/*Эту функцию передаем в кнопки, чтобы собрать рефы в buttonRefs*/
-	const addNewRefToRefs = (newRef) => {
-		setButtonsRefs(refs => ([...refs, newRef]))
-	}
-	/*Функция снимает className active со всех кнопок */
-	const toggleActiveClass = (ref) => {
-		for (let i in buttonRefs) {
-			const name = buttonRefs[i] === ref ? 'button button-active' : 'button '
-			buttonRefs[i].current.className = name
+
+	/*храним доставочные терминалы */
+	const [terminals, setTerminals] = useState([]);
+	/*iiko token */
+	const [token, setToken] = useState(null);
+	/*закончилась ли загрузка данных */
+	const [loading, setLoading] = useState(true);
+	/* экземпляр сервиса iiko*/
+	const iikoservice = new IikoService();
+
+
+	/*Чтобы показать прелоадер*/
+	const onLoading = () => setLoading(true)
+	const onLoaded = () => setLoading(false)
+
+
+	/*work with token */
+	const onTokenRefreshed = (newToken) => setToken(newToken)
+
+	const refreshToken = () => {
+		iikoservice.getToken().then(onTokenRefreshed);
+	};
+
+
+	/*create terminals list */
+	const onTerminalsRefreshed = (terminals) => {
+		onLoaded();
+		setTerminals(terminals);
+	};
+
+	const refreshTerminalsList = () => {
+		if (token) {
+			iikoservice.getDeliveryTerminals(token).then(onTerminalsRefreshed);
 		}
-	}
+	};
+
+	useEffect(() => {
+		refreshTerminalsList();
+	}, [token]);
+
+
+	/*когда рендерится компонент*/
+	useEffect(() => {
+		//1. запускаем обновление инфы с интервалом
+		// setInterval(() => refreshToken(), 5000);
+		refreshToken()
+		// eslint-disable-next-line
+	}, []);
+
 
 
 	return (
 		<div className="App">
 			<Heading text="GPS Radar" />
-			<section className="btn-warpper">
-				<Button
-					text="Всі кур'єри"
-					addNewRefToRefs={addNewRefToRefs}
-					active={true}
-					toggleActiveClass={toggleActiveClass}
-				/>
-				<Button
-					text="Всі кур'єри"
-					addNewRefToRefs={addNewRefToRefs}
-					toggleActiveClass={toggleActiveClass}
-				/>
-				<Button
-					text="Всі кур'єри"
-					addNewRefToRefs={addNewRefToRefs}
-					toggleActiveClass={toggleActiveClass}
-				/>
+			<ButtonGroup terminals={terminals} />
+			<section>
+				<Mapp />
 			</section>
+
 		</div>
 	);
 }
