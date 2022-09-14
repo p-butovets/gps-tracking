@@ -4,7 +4,7 @@ import './buttonGroup.scss';
 
 const ButtonGroup = (props) => {
     /*получаем список терминалов доставки */
-    const terminals = props.terminals;
+    const { terminals, setVisibleTerminal } = props;
 
     /*Хранятся рефы кнопок, чтобы снимать className active */
     const [buttonRefs, setButtonsRefs] = useState([])
@@ -30,8 +30,7 @@ const ButtonGroup = (props) => {
                 text={i.deliveryRestaurantName}
                 addNewRefToRefs={addNewRefToRefs}
                 active={false}
-                // setVisibleTerminal={setVisibleTerminal}
-                // setVisibleTerminalName={setVisibleTerminalName}
+                setVisibleTerminal={setVisibleTerminal}
                 toggleActiveClass={toggleActiveClass}
             />
         );
@@ -41,13 +40,17 @@ const ButtonGroup = (props) => {
 
     return (
         <section className="btn-warpper">
-            {buttons}
             <Button // одна дополнителная кнопка, чтобы показать всех курьеров
+                //ЧТобы показать всех курьеров - этой кнопкой ставим id видимого терминала null
+                id={null}
+                key={"111-222-333"}
                 text="Всі кур'єри"
                 addNewRefToRefs={addNewRefToRefs}
                 active={true}
+                setVisibleTerminal={setVisibleTerminal}
                 toggleActiveClass={toggleActiveClass}
             />
+            {buttons}
         </section>
     )
 }

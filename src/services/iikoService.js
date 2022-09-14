@@ -25,11 +25,12 @@ class IikoService extends Component {
     }
 
     getAllOrders = async (token) => {
+        const today = new Date().toISOString().split('T')[0]
         const params = {
             access_token: token,
             organization: this._apiOrganization,
-            dateTo: '2022-09-12',
-            dateFrom: '2022-09-12'
+            dateTo: today,
+            dateFrom: today
         }
         const res = await this.getResource(`${this._apiBase}orders/deliveryOrders`, params)
         return res.deliveryOrders.map(order => this._transformOrder(order))
