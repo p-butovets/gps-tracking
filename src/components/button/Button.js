@@ -4,7 +4,7 @@ import './button.scss';
 const Button = (props) => {
     const [isActive, setActive] = useState()
 
-    const { text, active, addNewRefToRefs, toggleActiveClass } = props;
+    const { id, text, active, addNewRefToRefs, toggleActiveClass, setVisibleTerminal } = props;
 
     const buttonRef = useRef(null);
 
@@ -24,6 +24,7 @@ const Button = (props) => {
             className={`button ${isActive ? 'button-active' : ''}`}
             onClick={() => {
                 toggleActiveClass(buttonRef);
+                setVisibleTerminal(id);
             }}
         >
             {text}
