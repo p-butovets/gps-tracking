@@ -25,9 +25,8 @@ class IikoService extends Component {
     }
 
     getAllOrders = async (token) => {
-        // const today = new Date().toISOString().split('T')[0]
+        const today = new Date().toISOString().split('T')[0]
         const allOrders = [];
-        const today = '2022-10-23'
         const params = {
             access_token: token,
             organization: this._apiOrganization,
@@ -44,23 +43,21 @@ class IikoService extends Component {
     }
 
     _transformOrder = (order) => {
-        if (order.courierInfo && order.courierInfo.location) {
-            return {
-                id: order.orderId,
-                number: order.number,
-                status: order.statusCode,
-                type: order.orderType.orderServiceType,
-                kitchen: order.deliveryTerminal.restaurantName,
-                deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
-                courier: {
-                    courierId: order.courierInfo.courierId,
-                    location: {
-                        latitude: order.courierInfo.location.latitude,
-                        longitude: order.courierInfo.location.longitude
-                    }
-                },
-                address: `${order.address.street}, ${order.address.home}`
-            }
+        return {
+            id: order.orderId,
+            number: order.number,
+            status: order.statusCode,
+            type: order.orderType.orderServiceType,
+            kitchen: order.deliveryTerminal.restaurantName,
+            deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
+            courier: {
+                courierId: order.courierInfo.courierId,
+                location: {
+                    latitude: order.courierInfo.location.latitude,
+                    longitude: order.courierInfo.location.longitude
+                }
+            },
+            address: `${order.address.street}, ${order.address.home}`
         }
     }
 
