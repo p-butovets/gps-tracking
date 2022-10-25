@@ -44,14 +44,18 @@ const Pin = (props) => {
 
 const Order = (props) => {
 
-    const orderInfo = props.orderInfo;
+    const { status, deadline, address, number } = props.orderInfo;
+
+    const colorClass = status == "ON_WAY" ? "green" : "gray"
+    const badgeName = status.toLowerCase()
 
     return (
         <>
-            <div className="courier__order">
-                <div>Номер: <span className="courier__order-number">{orderInfo.number}</span></div>
-                <div>Адрес: {orderInfo.address}</div>
-                <div>Дедлайн: {orderInfo.deadline}</div>
+            <div className={`courier__order ${colorClass}`}>
+                <div className={`courier__order-badge ${colorClass}`}>{badgeName}</div>
+                <div>Номер: <span className="courier__order-number">{number}</span></div>
+                <div>Адрес: {address}</div>
+                <div>Дедлайн: {deadline}</div>
             </div>
         </>
 
