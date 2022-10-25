@@ -5,20 +5,25 @@ const Pin = (props) => {
 
     const { orders, terminal, latitude, longitude, visbleTerminal, courierId, getCourierById, getOrderById } = props;
 
-    const info = orders.map(orderId => {
-        const orderInfo = getOrderById(orderId)
-        return (
-            <Order key={orderId} orderInfo={orderInfo} />
-        )
-    })
+    const info = orders.length > 0 ?
+        orders.map(orderId => {
+            const orderInfo = getOrderById(orderId)
+            return (
+                <Order key={orderId} orderInfo={orderInfo} />
+            )
+        })
+        :
+        <div className='courier__order green'>Свободен</div>
 
+    const [name, phone] = getCourierById(courierId);
 
     return (
         <>
             {!visbleTerminal ?
                 <Marker position={[latitude, longitude]}>
                     <Popup>
-                        <div className='courier__name'>{getCourierById(courierId)}</div>
+                        <div className='courier__name'>{name}</div>
+                        <div className='courier__phone'>{phone}</div>
                         {info}
                     </Popup>
                 </Marker>

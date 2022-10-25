@@ -38,7 +38,7 @@ const Mapp = (props) => {
         if (employees) {
             for (let i in employees) {
                 if (employees[i].id === courierId) {
-                    return employees[i].displayName
+                    return [employees[i].displayName, employees[i].cellPhone]
                 }
             }
         }
