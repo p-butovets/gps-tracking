@@ -27,7 +27,6 @@ class IikoService extends Component {
 
     getAllOrders = async (token) => {
         const today = moment().format().split('T')[0]
-        console.log(today)
         const allOrders = [];
         const params = {
             access_token: token,
