@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import moment from 'moment';
 
 class IikoService extends Component {
     _apiBase = 'https://card.iiko.co.uk:9900/api/0/'
@@ -25,7 +26,8 @@ class IikoService extends Component {
     }
 
     getAllOrders = async (token) => {
-        const today = new Date().toISOString().split('T')[0]
+        const today = moment().format().split('T')[0]
+        console.log(today)
         const allOrders = [];
         const params = {
             access_token: token,
