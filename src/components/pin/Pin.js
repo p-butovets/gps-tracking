@@ -5,6 +5,7 @@ const Pin = (props) => {
 
     const { orders, terminal, latitude, longitude, visbleTerminal, courierId, getCourierById, getOrderById } = props;
 
+
     const info = orders.length > 0 ?
         orders.map(orderId => {
             const orderInfo = getOrderById(orderId)
@@ -51,8 +52,8 @@ const Order = (props) => {
 
     const { status, deadline, address, number } = props.orderInfo;
 
-    const colorClass = status == "ON_WAY" ? "green" : "gray"
-    const badgeName = status.toLowerCase()
+    const colorClass = status === "ON_WAY" ? "green" : "gray"
+    const badgeName = status.toLowerCase();
 
     return (
         <>
