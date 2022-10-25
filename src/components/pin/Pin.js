@@ -1,4 +1,7 @@
 import { Marker, Popup } from 'react-leaflet';
+import * as ReactDOMServer from 'react-dom/server';
+import { divIcon } from 'leaflet';
+import CustomMarker from '../customMarker/CustomMarker';
 import './pin.scss';
 
 const Pin = (props) => {
@@ -21,7 +24,14 @@ const Pin = (props) => {
     return (
         <>
             {!visbleTerminal ?
-                <Marker position={[latitude, longitude]}>
+                <Marker
+                    icon={divIcon({
+                        className: "custom icon", html: ReactDOMServer.renderToString(
+                            <CustomMarker
+                                status={orders.length > 0 ? "onway" : "free"}
+                            />)
+                    })}
+                    position={[latitude, longitude]}>
                     <Popup>
                         <div className='courier__name'>{name}</div>
                         <div className='courier__phone'>{phone}</div>
@@ -33,9 +43,17 @@ const Pin = (props) => {
             }
 
             {terminal === visbleTerminal ?
-                <Marker position={[latitude, longitude]}>
+                <Marker
+                    icon={divIcon({
+                        className: "custom icon", html: ReactDOMServer.renderToString(
+                            <CustomMarker
+                                status={orders.length > 0 ? "onway" : "free"}
+                            />)
+                    })}
+                    position={[latitude, longitude]}>
                     <Popup>
-                        <div className='courier__name'>{getCourierById(courierId)}</div>
+                        <div className='courier__name'>{name}</div>
+                        <div className='courier__phone'>{phone}</div>
                         {info}
                     </Popup>
                 </Marker>
@@ -45,7 +63,6 @@ const Pin = (props) => {
         </>
     )
 }
-
 
 
 const Order = (props) => {
