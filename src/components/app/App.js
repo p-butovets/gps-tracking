@@ -9,6 +9,10 @@ import Mapp from '../mapp/Mapp';
 
 import './app.scss';
 
+// TODO: удалить
+//fake orders json
+import fakeOrders from '../../data/orders.json';
+
 
 function App() {
 
@@ -27,6 +31,8 @@ function App() {
 	/* экземпляр сервиса iiko*/
 	const iikoservice = new IikoService();
 
+	// объект курьеров и их заказов
+	const [couriers, setCouriers] = useState({});
 
 	/*Чтобы показать прелоадер*/
 	// const onLoading = () => setLoading(true)
@@ -44,7 +50,6 @@ function App() {
 
 	/*work with terminals list */
 	const onTerminalsRefreshed = (terminals) => {
-
 		setTerminals(terminals);
 	};
 
@@ -54,7 +59,7 @@ function App() {
 		}
 	};
 
-
+	// TODO: установить норм orders
 	/*work with orders */
 	const onOrdersRefreshed = (orders) => {
 		onLoaded();
@@ -76,9 +81,10 @@ function App() {
 		// eslint-disable-next-line
 	}, []);
 
+
 	/*когда обновляется токен*/
 	useEffect(() => {
-		//1. обновляем список терминалов доствки
+		//1. обновляем список терминалов доставки
 		refreshTerminalsList();
 
 		//2. обновляем список заказов
@@ -86,6 +92,52 @@ function App() {
 		// eslint-disable-next-line
 	}, [token]);
 
+
+
+	/*Создаем и обновляем объект курьеров и их заказов */
+
+	/* Обновляет объект айдишниками курьеров у которых уже есть заказы*/
+	const updateCouriersOnDuty = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+			if (!couriers.hasOwnProperty(courierId)) {
+				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null };
+			}
+		}
+	}
+
+	/*сбрасывает массивы заказов у курьеров */
+	const clearOrders = (couriers) => {
+		for (let i in couriers) {
+			couriers[i].orders = [];
+		}
+	}
+
+	/* Обновляет массивы с айди заказов каждого курьера и обновляет location */
+	const updateOrdersForEachCourier = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+
+			//обновили локейшн
+			couriers[courierId].latitude = orders[i].courier.location.latitude;
+			couriers[courierId].longitude = orders[i].courier.location.longitude;
+
+			//насыпаем актуальные айдишники заказов
+			couriers[courierId].orders.push(orders[i].id)
+		}
+	}
+
+	/*когда обновляется state orders */
+	useEffect(() => {
+		//обновляем курьеров
+		updateCouriersOnDuty(orders);
+
+		// сбрасываем заказы у курьеров
+		clearOrders(couriers)
+
+		//обновляем заказы и location каждого курьера
+		updateOrdersForEachCourier(orders);
+	}, [orders]);
 
 	return (
 		<div className="App">
@@ -95,7 +147,7 @@ function App() {
 				<View
 					terminals={terminals}
 					setVisibleTerminal={setVisibleTerminal}
-					orders={orders}
+					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
 				/>}
@@ -105,7 +157,7 @@ function App() {
 
 const View = (props) => {
 
-	const { terminals, setVisibleTerminal, orders, visbleTerminal, token } = props;
+	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token } = props;
 
 	return (
 		<>
@@ -113,7 +165,7 @@ const View = (props) => {
 			<ButtonGroup terminals={terminals} setVisibleTerminal={setVisibleTerminal} />
 			<section>
 				<Mapp
-					orders={orders}
+					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
 				/>
