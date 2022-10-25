@@ -9,17 +9,12 @@ import Mapp from '../mapp/Mapp';
 
 import './app.scss';
 
-// TODO: удалить
-//fake orders json
-import fakeOrders from '../../data/orders.json';
-
-
 function App() {
 
 	/*храним доставочные терминалы */
 	const [terminals, setTerminals] = useState([]);
 	/*храним список заказов*/
-	const [orders, setOrders] = useState(null);
+	const [actualOrders, setActualOrders] = useState(null);
 	/* Каких курьеров показывать */
 	const [visbleTerminal, setVisibleTerminal] = useState(null);
 	/*iiko token */
@@ -59,11 +54,11 @@ function App() {
 		}
 	};
 
-	// TODO: установить норм orders
+
 	/*work with orders */
 	const onOrdersRefreshed = (orders) => {
 		onLoaded();
-		setOrders(orders);
+		setActualOrders(orders);
 	};
 
 	const refreshOrders = (token) => {
@@ -77,7 +72,7 @@ function App() {
 	useEffect(() => {
 		//1. запускаем обновление инфы с интервалом
 		refreshToken()
-		setInterval(() => refreshToken(), 5000);
+		setInterval(() => refreshToken(), 20000);
 		// eslint-disable-next-line
 	}, []);
 
@@ -101,7 +96,7 @@ function App() {
 		for (let i in orders) {
 			const courierId = orders[i].courier.courierId;
 			if (!couriers.hasOwnProperty(courierId)) {
-				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null };
+				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null, terminal: null };
 			}
 		}
 	}
@@ -113,7 +108,7 @@ function App() {
 		}
 	}
 
-	/* Обновляет массивы с айди заказов каждого курьера и обновляет location */
+	/* Обновляет массивы с айди заказов каждого курьера и обновляет location и терминал */
 	const updateOrdersForEachCourier = (orders) => {
 		for (let i in orders) {
 			const courierId = orders[i].courier.courierId;
@@ -122,22 +117,28 @@ function App() {
 			couriers[courierId].latitude = orders[i].courier.location.latitude;
 			couriers[courierId].longitude = orders[i].courier.location.longitude;
 
+			//определили терминал
+			couriers[courierId].terminal = orders[i].deliveryTerminalId
+
 			//насыпаем актуальные айдишники заказов
-			couriers[courierId].orders.push(orders[i].id)
+			//исключаем CLOSED & DELIVERED
+			if (orders[i].status !== "DELIVERED" && orders[i].status !== "CLOSED") {
+				couriers[courierId].orders.push(orders[i].id)
+			}
 		}
 	}
 
-	/*когда обновляется state orders */
+	/*когда обновляется state actualOrders */
 	useEffect(() => {
 		//обновляем курьеров
-		updateCouriersOnDuty(orders);
+		updateCouriersOnDuty(actualOrders);
 
 		// сбрасываем заказы у курьеров
 		clearOrders(couriers)
 
 		//обновляем заказы и location каждого курьера
-		updateOrdersForEachCourier(orders);
-	}, [orders]);
+		updateOrdersForEachCourier(actualOrders);
+	}, [actualOrders]);
 
 	return (
 		<div className="App">
@@ -150,6 +151,7 @@ function App() {
 					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
+					actualOrders={actualOrders}
 				/>}
 		</div>
 	);
@@ -157,7 +159,7 @@ function App() {
 
 const View = (props) => {
 
-	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token } = props;
+	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token, actualOrders } = props;
 
 	return (
 		<>
@@ -168,6 +170,7 @@ const View = (props) => {
 					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
+					actualOrders={actualOrders}
 				/>
 			</section>
 		</>

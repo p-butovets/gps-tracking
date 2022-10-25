@@ -51,6 +51,7 @@ class IikoService extends Component {
             type: order.orderType.orderServiceType,
             kitchen: order.deliveryTerminal.restaurantName,
             deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
+            deadline: order.deliveryDate.split(' ')[1],
             courier: {
                 courierId: order.courierInfo.courierId,
                 location: {

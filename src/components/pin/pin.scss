@@ -1,0 +1,15 @@
+.courier {
+	color: #000000;
+	&__name {
+		font-weight: 800;
+	}
+	&__order {
+		border: solid 1px gray;
+		border-radius: 10px;
+		padding: 3px 5px;
+		margin: 5px;
+		&-number {
+			font-weight: 800;
+		}
+	}
+}

@@ -1,25 +1,37 @@
-import { Marker, Popup } from 'react-leaflet'
+import { Marker, Popup } from 'react-leaflet';
 import './pin.scss';
 
 const Pin = (props) => {
 
-    const { order, visbleTerminal, getCourierById } = props;
-    const location = order.courier.location
+    const { orders, terminal, latitude, longitude, visbleTerminal, courierId, getCourierById, getOrderById } = props;
+
+    const info = orders.map(orderId => {
+        const orderInfo = getOrderById(orderId)
+        return (
+            <Order key={orderId} orderInfo={orderInfo} />
+        )
+    })
 
 
     return (
         <>
             {!visbleTerminal ?
-                <Marker position={[location.latitude, location.longitude]}>
-                    <Info order={order} getCourierById={getCourierById} />
+                <Marker position={[latitude, longitude]}>
+                    <Popup>
+                        <div className='courier__name'>{getCourierById(courierId)}</div>
+                        {info}
+                    </Popup>
                 </Marker>
                 :
                 null
             }
 
-            {order.deliveryTerminalId === visbleTerminal ?
-                <Marker position={[location.latitude, location.longitude]}>
-                    <Info order={order} getCourierById={getCourierById} />
+            {terminal === visbleTerminal ?
+                <Marker position={[latitude, longitude]}>
+                    <Popup>
+                        <div className='courier__name'>{getCourierById(courierId)}</div>
+                        {info}
+                    </Popup>
                 </Marker>
                 :
                 null
@@ -28,27 +40,22 @@ const Pin = (props) => {
     )
 }
 
-const Info = (props) => {
 
-    const { order, getCourierById } = props;
+
+const Order = (props) => {
+
+    const orderInfo = props.orderInfo;
 
     return (
         <>
-            {
-                order.status !== "DELIVERED" &&
-                    order.status !== "CLOSED"
-                    ?
-                    <Popup>
-                        <div>{getCourierById(order.courier.courierId)}</div>
-                        <div>Номер заказа:{order.number}</div>
-                        <div>Адрес доставки:{order.address}</div>
-                    </Popup>
-                    :
-                    <Popup>
-                        <div>{getCourierById(order.courier.courierId)}</div>
-                    </Popup>
-            }
+            <div className="courier__order">
+                <div>Номер: <span className="courier__order-number">{orderInfo.number}</span></div>
+                <div>Адрес: {orderInfo.address}</div>
+                <div>Дедлайн: {orderInfo.deadline}</div>
+            </div>
         </>
+
     )
 }
+
 export default Pin;

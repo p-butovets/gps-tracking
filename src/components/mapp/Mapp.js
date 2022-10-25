@@ -1,63 +1,72 @@
 import { useState, useEffect } from 'react';
-import { MapContainer, TileLayer } from 'react-leaflet'
-import Pin from '../pin/Pin';
+import { MapContainer, TileLayer } from 'react-leaflet';
 import IikoService from "../../services/iikoService";
+import Pin from '../pin/Pin';
 
 import './mapp.scss';
 
 const Mapp = (props) => {
 
-    const { orders, visbleTerminal, token } = props;
+    const { couriers, visbleTerminal, token, actualOrders } = props;
 
-    /* храним список всех курьеров организации*/
-    const [couriers, setCouriers] = useState(null);
+    const [employees, setEmployees] = useState();
+
+    const pins = [];
 
     const iikoservice = new IikoService();
 
 
-    /*work with Couriers */
-    const onCouriersRefreshed = (couriers) => setCouriers(couriers)
+    /*work with employees */
 
-    const refreshCouriers = (token) => {
-        iikoservice.getCouriers(token).then(onCouriersRefreshed);
-    };
+    const onEmployeesRefreshed = (employees) => {
+        setEmployees(employees)
+    }
 
-    const getCourierById = (id) => {
-        if (couriers) {
-            for (let i of couriers) {
-                if (i.id === id) {
-                    return i.displayName;
-                }
-            }
-        }
+    const refreshEmployees = (token) => {
+        iikoservice.getCouriers(token).then(onEmployeesRefreshed);
     };
 
     useEffect(() => {
         if (token) {
-            refreshCouriers(token);
+            refreshEmployees(token);
         }
         // eslint-disable-next-line
     }, []);
 
 
-    /*формируем булавки - маркер плюс попап */
-    const pins = orders ?
-        // eslint-disable-next-line
-        orders.map(order => {
-            if (order) {
-                return (
-                    <Pin
-                        key={order.id}
-                        order={order}
-                        visbleTerminal={visbleTerminal}
-                        getCourierById={getCourierById}
-                    />
-                )
+    const getCourierById = (courierId) => {
+        if (employees) {
+            for (let i in employees) {
+                if (employees[i].id === courierId) {
+                    return employees[i].displayName
+                }
             }
-        })
-        :
-        null
+        }
+    };
 
+    const getOrderById = (orderId) => {
+        for (let i of actualOrders) {
+            if (i.id === orderId) {
+                return i
+            }
+        }
+    }
+
+
+    for (let i in couriers) {
+        pins.push(
+            <Pin
+                key={i}
+                courierId={i}
+                latitude={couriers[i].latitude}
+                longitude={couriers[i].longitude}
+                orders={couriers[i].orders}
+                terminal={couriers[i].terminal}
+                visbleTerminal={visbleTerminal}
+                getCourierById={getCourierById}
+                getOrderById={getOrderById}
+            />)
+    }
 
     return (
         <>
