@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import moment from 'moment';
 
 class IikoService extends Component {
     _apiBase = 'https://card.iiko.co.uk:9900/api/0/'
@@ -25,7 +26,8 @@ class IikoService extends Component {
     }
 
     getAllOrders = async (token) => {
-        const today = new Date().toISOString().split('T')[0]
+        const today = moment().format().split('T')[0]
+        const allOrders = [];
         const params = {
             access_token: token,
             organization: this._apiOrganization,
@@ -33,27 +35,31 @@ class IikoService extends Component {
             dateFrom: today
         }
         const res = await this.getResource(`${this._apiBase}orders/deliveryOrders`, params)
-        return res.deliveryOrders.map(order => this._transformOrder(order))
+        res.deliveryOrders.forEach(order => {
+            if (order.courierInfo && order.courierInfo.location) {
+                allOrders.push(this._transformOrder(order))
+            }
+        })
+        return allOrders;
     }
 
     _transformOrder = (order) => {
-        if (order.courierInfo && order.courierInfo.location) {
-            return {
-                id: order.orderId,
-                number: order.number,
-                status: order.statusCode,
-                type: order.orderType.orderServiceType,
-                kitchen: order.deliveryTerminal.restaurantName,
-                deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
-                courier: {
-                    courierId: order.courierInfo.courierId,
-                    location: {
-                        latitude: order.courierInfo.location.latitude,
-                        longitude: order.courierInfo.location.longitude
-                    }
-                },
-                address: `${order.address.street}, ${order.address.home}`
-            }
+        return {
+            id: order.orderId,
+            number: order.number,
+            status: order.statusCode,
+            type: order.orderType.orderServiceType,
+            kitchen: order.deliveryTerminal.restaurantName,
+            deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
+            deadline: order.deliveryDate.split(' ')[1],
+            courier: {
+                courierId: order.courierInfo.courierId,
+                location: {
+                    latitude: order.courierInfo.location.latitude,
+                    longitude: order.courierInfo.location.longitude
+                }
+            },
+            address: `${order.address.street}, ${order.address.home}`
         }
     }
 

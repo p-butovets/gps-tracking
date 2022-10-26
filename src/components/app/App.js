@@ -9,13 +9,12 @@ import Mapp from '../mapp/Mapp';
 
 import './app.scss';
 
-
 function App() {
 
 	/*храним доставочные терминалы */
 	const [terminals, setTerminals] = useState([]);
 	/*храним список заказов*/
-	const [orders, setOrders] = useState(null);
+	const [actualOrders, setActualOrders] = useState(null);
 	/* Каких курьеров показывать */
 	const [visbleTerminal, setVisibleTerminal] = useState(null);
 	/*iiko token */
@@ -27,6 +26,8 @@ function App() {
 	/* экземпляр сервиса iiko*/
 	const iikoservice = new IikoService();
 
+	// объект курьеров и их заказов
+	const [couriers, setCouriers] = useState({});
 
 	/*Чтобы показать прелоадер*/
 	// const onLoading = () => setLoading(true)
@@ -44,7 +45,6 @@ function App() {
 
 	/*work with terminals list */
 	const onTerminalsRefreshed = (terminals) => {
-
 		setTerminals(terminals);
 	};
 
@@ -58,7 +58,7 @@ function App() {
 	/*work with orders */
 	const onOrdersRefreshed = (orders) => {
 		onLoaded();
-		setOrders(orders);
+		setActualOrders(orders);
 	};
 
 	const refreshOrders = (token) => {
@@ -72,13 +72,14 @@ function App() {
 	useEffect(() => {
 		//1. запускаем обновление инфы с интервалом
 		refreshToken()
-		setInterval(() => refreshToken(), 5000);
+		setInterval(() => refreshToken(), 20000);
 		// eslint-disable-next-line
 	}, []);
 
+
 	/*когда обновляется токен*/
 	useEffect(() => {
-		//1. обновляем список терминалов доствки
+		//1. обновляем список терминалов доставки
 		refreshTerminalsList();
 
 		//2. обновляем список заказов
@@ -86,6 +87,58 @@ function App() {
 		// eslint-disable-next-line
 	}, [token]);
 
+
+
+	/*Создаем и обновляем объект курьеров и их заказов */
+
+	/* Обновляет объект айдишниками курьеров у которых уже есть заказы*/
+	const updateCouriersOnDuty = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+			if (!couriers.hasOwnProperty(courierId)) {
+				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null, terminal: null };
+			}
+		}
+	}
+
+	/*сбрасывает массивы заказов у курьеров */
+	const clearOrders = (couriers) => {
+		for (let i in couriers) {
+			couriers[i].orders = [];
+		}
+	}
+
+	/* Обновляет массивы с айди заказов каждого курьера и обновляет location и терминал */
+	const updateOrdersForEachCourier = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+
+			//обновили локейшн
+			couriers[courierId].latitude = orders[i].courier.location.latitude;
+			couriers[courierId].longitude = orders[i].courier.location.longitude;
+
+			//определили терминал
+			couriers[courierId].terminal = orders[i].deliveryTerminalId
+
+			//насыпаем актуальные айдишники заказов
+			//исключаем CLOSED & DELIVERED
+			if (orders[i].status !== "DELIVERED" && orders[i].status !== "CLOSED") {
+				couriers[courierId].orders.push(orders[i].id)
+			}
+		}
+	}
+
+	/*когда обновляется state actualOrders */
+	useEffect(() => {
+		//обновляем курьеров
+		updateCouriersOnDuty(actualOrders);
+
+		// сбрасываем заказы у курьеров
+		clearOrders(couriers)
+
+		//обновляем заказы и location каждого курьера
+		updateOrdersForEachCourier(actualOrders);
+	}, [actualOrders]);
 
 	return (
 		<div className="App">
@@ -95,9 +148,10 @@ function App() {
 				<View
 					terminals={terminals}
 					setVisibleTerminal={setVisibleTerminal}
-					orders={orders}
+					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
+					actualOrders={actualOrders}
 				/>}
 		</div>
 	);
@@ -105,7 +159,7 @@ function App() {
 
 const View = (props) => {
 
-	const { terminals, setVisibleTerminal, orders, visbleTerminal, token } = props;
+	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token, actualOrders } = props;
 
 	return (
 		<>
@@ -113,9 +167,10 @@ const View = (props) => {
 			<ButtonGroup terminals={terminals} setVisibleTerminal={setVisibleTerminal} />
 			<section>
 				<Mapp
-					orders={orders}
+					couriers={couriers}
 					visbleTerminal={visbleTerminal}
 					token={token}
+					actualOrders={actualOrders}
 				/>
 			</section>
 		</>
