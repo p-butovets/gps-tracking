@@ -33,7 +33,6 @@ const Mapp = (props) => {
         // eslint-disable-next-line
     }, []);
 
-
     const getCourierById = (courierId) => {
         if (employees) {
             for (let i in employees) {
@@ -80,5 +79,6 @@ const Mapp = (props) => {
         </>
     )
 }
+
 
 export default Mapp;

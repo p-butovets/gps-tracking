@@ -21,6 +21,16 @@
 			right: 3px;
 		}
 	}
+	&__route-toggler {
+		display: block;
+		color: #f47a44;
+		min-width: 93%;
+		border-radius: 7px;
+		border: solid 1px #f47a44;
+		padding: 9px 5px;
+		text-align: center;
+		cursor: pointer;
+	}
 }
 
 .green {

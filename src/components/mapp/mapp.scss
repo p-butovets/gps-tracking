@@ -1,4 +1,14 @@
 .leaflet-container {
-    width: 100%;
-    height: 70vh;
+	width: 100%;
+	height: 70vh;
+}
+
+// втупую отключил подробности
+.leaflet-routing-container {
+	display: none;
+}
+
+//втупую отключил маркеры маршрутов
+.leaflet-marker-draggable {
+	display: none;
 }
