@@ -114,7 +114,6 @@ function App() {
 	const getBaseLocationByTerminalId = (terminalId) => {
 		for (let i of terminalsLocationData) {
 			if (terminalId === i.id) {
-				console.log([i.lat, i.long])
 				return [i.lat, i.long]
 			}
 		}
