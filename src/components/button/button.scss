@@ -1,22 +1,21 @@
-$color: #F47A44;
+$color: #eb5e28;
 
 .button {
-    // background-color: $color;
-    color: $color;
-    display: inline-block;
-    padding: 0.5em 1em;
-    border-radius: 0.5em;
-    border: $color 1px solid;
-    font-weight: 400;
-    font-size: 11px;
-    transition: all .2s;
-    cursor: pointer;
-    &:hover {
-        background-color: $color;
-        color: #fff;
-    }
-    &-active {
-        background-color: $color;
-        color: #fff;
-    }
+	color: $color;
+	display: inline-block;
+	padding: 0.5em 1em;
+	border-radius: 0.5em;
+	border: $color 1px solid;
+	font-weight: 400;
+	font-size: 11px;
+	transition: all 0.2s;
+	cursor: pointer;
+	&:hover {
+		background-color: $color;
+		color: #fff;
+	}
+	&-active {
+		background-color: $color;
+		color: #fff;
+	}
 }
