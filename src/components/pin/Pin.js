@@ -67,41 +67,7 @@ const Pin = (props) => {
 
     return (
         <>
-            {!visbleTerminal ?
-                <Marker
-                    icon={divIcon({
-                        className: "custom icon",
-                        iconAnchor: [13, 37],
-                        popupAnchor: [0, -21],
-                        html: ReactDOMServer.renderToString(
-                            <CustomMarker
-                                status={orders.length > 0 ? "onway" : "free"}
-                            />)
-                    })}
-                    position={[latitude, longitude]}>
-                    <Popup>
-                        <div className='courier__name'>{name}</div>
-                        <div className='courier__phone'>{phone}</div>
-                        {content}
-                        <div
-                            onClick={() => setShowRoute(!showRoute)}
-                            className="courier__route-toggler">
-                            {showRoute ? 'выкл маршрут' : 'вкл маршрут'}
-                        </div>
-                    </Popup>
-
-                    {showRoute ?
-                        <RoutingMachine waypoints={waypoints} />
-                        :
-                        null
-                    }
-
-                </Marker>
-                :
-                null
-            }
-
-            {terminal.id === visbleTerminal ?
+            {!visbleTerminal || terminal.id === visbleTerminal ?
                 <Marker
                     icon={divIcon({
                         className: "custom icon",
