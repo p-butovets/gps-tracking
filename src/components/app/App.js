@@ -8,6 +8,7 @@ import Mapp from '../mapp/Mapp';
 import './app.scss';
 import terminalsLocationData from '../../data/terminalsLocationData.json';
 
+//demoData to dev
 import fakeOrders from '../../fakeData/fakeOrders.json';
 
 function App() {
@@ -59,7 +60,7 @@ function App() {
 	/*work with orders */
 	const onOrdersRefreshed = (orders) => {
 		onLoaded();
-		setActualOrders(fakeOrders);
+		setActualOrders(orders);
 	};
 
 	const refreshOrders = (token) => {
