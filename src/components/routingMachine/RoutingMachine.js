@@ -4,7 +4,7 @@ import "leaflet-routing-machine";
 
 const createRoutineMachineLayer = (props) => {
 
-    const { waypoints, showRoute, setShowRoute } = props;
+    const { waypoints } = props;
 
     const instance = L.Routing.control({
         waypoints: waypoints

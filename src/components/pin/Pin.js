@@ -24,15 +24,7 @@ const Pin = (props) => {
     //список заказов курьера
     const [content, setContent] = useState(null);
 
-    /*при рендере компонента*/
-    useEffect(() => {
-
-        /*ставим заголовки*/
-        const [name, phone] = getCourierById(courierId);
-        setName(name);
-        setPhone(phone);
-
-        /*ставим контент*/
+    const setPopupContent = () => {
         //Список заказов курьера для модалки
         const ordersList = orders.length > 0 ?
             orders.map(orderId => {
@@ -63,7 +55,26 @@ const Pin = (props) => {
         if (!orders.length > 0) {
             setWayPoints(waypoints => ([...waypoints, L.latLng(terminal.lat, terminal.long)]))
         }
+    }
+
+    /*при рендере компонента*/
+    useEffect(() => {
+
+        /*ставим заголовки*/
+        const [name, phone] = getCourierById(courierId);
+        setName(name);
+        setPhone(phone);
+
+        /*ставим контент*/
+        setPopupContent();
+
     }, [])
+
+    /*когда обновился пропс orders */
+    useEffect(() => {
+        /*ставим новый контент*/
+        setPopupContent();
+    }, [orders])
 
     return (
         <>

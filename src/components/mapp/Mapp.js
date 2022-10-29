@@ -26,12 +26,7 @@ const Mapp = (props) => {
         iikoservice.getCouriers(token).then(onEmployeesRefreshed);
     };
 
-    useEffect(() => {
-        if (token) {
-            refreshEmployees(token);
-        }
-        // eslint-disable-next-line
-    }, []);
+
 
     const getCourierById = (courierId) => {
         if (employees) {
@@ -66,6 +61,13 @@ const Mapp = (props) => {
                 getOrderById={getOrderById}
             />)
     }
+
+    useEffect(() => {
+        if (token) {
+            refreshEmployees(token);
+        }
+        // eslint-disable-next-line
+    }, []);
 
     return (
         <>

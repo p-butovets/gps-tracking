@@ -70,27 +70,6 @@ function App() {
 	};
 
 
-	/*когда рендерится компонент*/
-	useEffect(() => {
-		//1. запускаем обновление инфы с интервалом
-		refreshToken()
-		setInterval(() => refreshToken(), 20000);
-		// eslint-disable-next-line
-	}, []);
-
-
-	/*когда обновляется токен*/
-	useEffect(() => {
-		//1. обновляем список терминалов доставки
-		refreshTerminalsList();
-
-		//2. обновляем список заказов
-		refreshOrders(token);
-		// eslint-disable-next-line
-	}, [token]);
-
-
-
 	/*Создаем и обновляем объект курьеров и их заказов */
 
 	/* Обновляет объект айдишниками курьеров у которых уже есть заказы*/
@@ -138,12 +117,30 @@ function App() {
 			couriers[courierId].terminal['long'] = long;
 
 			//насыпаем актуальные айдишники заказов
-			//исключаем CLOSED & DELIVERED
-			if (orders[i].status !== "DELIVERED" && orders[i].status !== "CLOSED") {
+			if (orders[i].status === "NEW" || orders[i].status === "ON_WAY") {
 				couriers[courierId].orders.push(orders[i].id)
 			}
 		}
 	}
+
+	/*когда рендерится компонент*/
+	useEffect(() => {
+		//1. запускаем обновление инфы с интервалом
+		refreshToken()
+		setInterval(() => refreshToken(), 20000);
+		// eslint-disable-next-line
+	}, []);
+
+
+	/*когда обновляется токен*/
+	useEffect(() => {
+		//1. обновляем список терминалов доставки
+		refreshTerminalsList();
+
+		//2. обновляем список заказов state actualOrders
+		refreshOrders(token);
+		// eslint-disable-next-line
+	}, [token]);
 
 	/*когда обновляется state actualOrders */
 	useEffect(() => {
