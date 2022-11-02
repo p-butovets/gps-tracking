@@ -26,12 +26,6 @@ const Mapp = (props) => {
         iikoservice.getCouriers(token).then(onEmployeesRefreshed);
     };
 
-    useEffect(() => {
-        if (token) {
-            refreshEmployees(token);
-        }
-        // eslint-disable-next-line
-    }, []);
 
 
     const getCourierById = (courierId) => {
@@ -68,6 +62,13 @@ const Mapp = (props) => {
             />)
     }
 
+    useEffect(() => {
+        if (token) {
+            refreshEmployees(token);
+        }
+        // eslint-disable-next-line
+    }, []);
+
     return (
         <>
             <MapContainer center={[50.4374731495035, 30.51346447588832]} zoom={11} scrollWheelZoom={true}>
@@ -80,5 +81,6 @@ const Mapp = (props) => {
         </>
     )
 }
+
 
 export default Mapp;

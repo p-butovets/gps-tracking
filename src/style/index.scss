@@ -1,47 +1,44 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;800&display=swap");
 
 body {
-    font-family: 'Nunito Sans', sans-serif;
+	font-family: "Nunito Sans", sans-serif;
+	color: #252422;
 }
 
 section,
 header,
 footer {
-    padding: 0 15px;
+	padding: 0 15px;
 }
 
 @media (min-width: 575.98px) {
-
-    section,
-    header,
-    footer {
-        padding: 0 calc(50vw - 270px);
-    }
+	section,
+	header,
+	footer {
+		padding: 0 calc(50vw - 270px);
+	}
 }
 
 @media (min-width: 767.98px) {
-
-    section,
-    header,
-    footer {
-        padding: 0 calc(50vw - 360px);
-    }
+	section,
+	header,
+	footer {
+		padding: 0 calc(50vw - 360px);
+	}
 }
 
 @media (min-width: 991.98px) {
-
-    section,
-    header,
-    footer {
-        padding: 0 calc(50vw - 480px);
-    }
+	section,
+	header,
+	footer {
+		padding: 0 calc(50vw - 480px);
+	}
 }
 
 @media (min-width: 1199.98px) {
-
-    section,
-    header,
-    footer {
-        padding: 0 calc(50vw - 590px);
-    }
+	section,
+	header,
+	footer {
+		padding: 0 calc(50vw - 590px);
+	}
 }

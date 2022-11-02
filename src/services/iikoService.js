@@ -52,6 +52,7 @@ class IikoService extends Component {
             kitchen: order.deliveryTerminal.restaurantName,
             deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
             deadline: order.deliveryDate.split(' ')[1],
+            orderLocationInfo: order.orderLocationInfo,
             courier: {
                 courierId: order.courierInfo.courierId,
                 location: {

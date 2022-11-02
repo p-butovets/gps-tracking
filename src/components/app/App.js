@@ -1,13 +1,15 @@
 import { useState, useEffect } from 'react';
-
 import IikoService from "../../services/iikoService";
-
 import Spinner from "../spinner/Spinner";
 import Heading from '../heading/Heading';
 import ButtonGroup from '../buttonGroup/ButtonGroup';
 import Mapp from '../mapp/Mapp';
 
 import './app.scss';
+import terminalsLocationData from '../../data/terminalsLocationData.json';
+
+//demoData to dev
+import fakeOrders from '../../fakeData/fakeOrders.json';
 
 function App() {
 
@@ -68,6 +70,59 @@ function App() {
 	};
 
 
+	/*Создаем и обновляем объект курьеров и их заказов */
+
+	/* Обновляет объект айдишниками курьеров у которых уже есть заказы*/
+	const updateCouriersOnDuty = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+			if (!couriers.hasOwnProperty(courierId)) {
+				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null, terminal: {} };
+			}
+		}
+	}
+
+	/*сбрасывает массивы заказов у курьеров */
+	const clearOrders = (couriers) => {
+		for (let i in couriers) {
+			couriers[i].orders = [];
+		}
+	}
+
+	/*у заказа берем адйи терминала, по нему возвращем инфу про бейс локейшн для курьера*/
+	/*может измениться, если последний заказ курьеру назначен с другой кухни */
+	const getBaseLocationByTerminalId = (terminalId) => {
+		for (let i of terminalsLocationData) {
+			if (terminalId === i.id) {
+				return [i.lat, i.long]
+			}
+		}
+	}
+
+	/* Обновляет массивы с айди заказов каждого курьера и обновляет location и терминал */
+	const updateOrdersForEachCourier = (orders) => {
+		for (let i in orders) {
+			const courierId = orders[i].courier.courierId;
+
+			//обновили локейшн
+			couriers[courierId].latitude = orders[i].courier.location.latitude;
+			couriers[courierId].longitude = orders[i].courier.location.longitude;
+
+			//определили терминал
+			couriers[courierId].terminal['id'] = orders[i].deliveryTerminalId
+
+			//установили координаты терминала
+			const [lat, long] = getBaseLocationByTerminalId(orders[i].deliveryTerminalId)
+			couriers[courierId].terminal['lat'] = lat;
+			couriers[courierId].terminal['long'] = long;
+
+			//насыпаем актуальные айдишники заказов
+			if (orders[i].status === "NEW" || orders[i].status === "ON_WAY") {
+				couriers[courierId].orders.push(orders[i].id)
+			}
+		}
+	}
+
 	/*когда рендерится компонент*/
 	useEffect(() => {
 		//1. запускаем обновление инфы с интервалом
@@ -82,51 +137,10 @@ function App() {
 		//1. обновляем список терминалов доставки
 		refreshTerminalsList();
 
-		//2. обновляем список заказов
+		//2. обновляем список заказов state actualOrders
 		refreshOrders(token);
 		// eslint-disable-next-line
 	}, [token]);
-
-
-
-	/*Создаем и обновляем объект курьеров и их заказов */
-
-	/* Обновляет объект айдишниками курьеров у которых уже есть заказы*/
-	const updateCouriersOnDuty = (orders) => {
-		for (let i in orders) {
-			const courierId = orders[i].courier.courierId;
-			if (!couriers.hasOwnProperty(courierId)) {
-				couriers[orders[i].courier.courierId] = { orders: [], latitude: null, longitude: null, terminal: null };
-			}
-		}
-	}
-
-	/*сбрасывает массивы заказов у курьеров */
-	const clearOrders = (couriers) => {
-		for (let i in couriers) {
-			couriers[i].orders = [];
-		}
-	}
-
-	/* Обновляет массивы с айди заказов каждого курьера и обновляет location и терминал */
-	const updateOrdersForEachCourier = (orders) => {
-		for (let i in orders) {
-			const courierId = orders[i].courier.courierId;
-
-			//обновили локейшн
-			couriers[courierId].latitude = orders[i].courier.location.latitude;
-			couriers[courierId].longitude = orders[i].courier.location.longitude;
-
-			//определили терминал
-			couriers[courierId].terminal = orders[i].deliveryTerminalId
-
-			//насыпаем актуальные айдишники заказов
-			//исключаем CLOSED & DELIVERED
-			if (orders[i].status !== "DELIVERED" && orders[i].status !== "CLOSED") {
-				couriers[courierId].orders.push(orders[i].id)
-			}
-		}
-	}
 
 	/*когда обновляется state actualOrders */
 	useEffect(() => {
