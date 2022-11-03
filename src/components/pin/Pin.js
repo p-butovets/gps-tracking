@@ -118,7 +118,7 @@ const Pin = (props) => {
 
 const OrderBlock = (props) => {
     const { status, deadline, address, number } = props.orderInfo;
-    const colorClass = status === "ON_WAY" ? "green" : "gray"
+    const colorClass = status === "В пути" ? "green" : "gray"
     const badgeName = status.toLowerCase();
     return (
         <>

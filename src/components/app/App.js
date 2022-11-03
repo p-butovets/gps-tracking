@@ -117,7 +117,11 @@ function App() {
 			couriers[courierId].terminal['long'] = long;
 
 			//насыпаем актуальные айдишники заказов
-			if (orders[i].status === "NEW" || orders[i].status === "ON_WAY") {
+			if (orders[i].status == "Новая"
+				|| orders[i].status === "Готовится"
+				|| orders[i].status === "Готово"
+				|| orders[i].status === "В пути"
+			) {
 				couriers[courierId].orders.push(orders[i].id)
 			}
 		}
