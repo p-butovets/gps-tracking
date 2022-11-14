@@ -1,642 +1,285 @@
 [
     {
-        "id": "3cafabc1-5bfc-487b-9d11-d02c7c877cd5",
-        "number": "55853",
-        "status": "CLOSED",
+        "id": "2d53d376-1a37-47bb-a3ed-511b0991139d",
+        "number": "23274",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "12:00:31",
+        "kitchen": "К6 Соборности",
+        "deliveryTerminalId": "9c8217c9-b0c5-5156-017a-8073f2d2b229",
+        "deadline": "11:46:49",
         "orderLocationInfo": {
-            "latitude": 50.4301443,
-            "longitude": 30.516444
+            "latitude": 50.4404799,
+            "longitude": 30.6169789
         },
         "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
+            "courierId": "6773018d-2148-483a-97a3-97e9d176d6a8",
             "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
+                "latitude": 50.437328198,
+                "longitude": 30.64978102
             }
         },
-        "address": "Велика Васильківська вул., 65"
+        "address": "Соборності пр-т, 18"
     },
     {
-        "id": "967037d3-a8bf-4b90-82b4-844ec417ca2f",
-        "number": "55854",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "12:04:03",
-        "orderLocationInfo": {
-            "latitude": 50.4159539,
-            "longitude": 30.5306472
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Джона Маккейна вул., 7"
-    },
-    {
-        "id": "53fba0fe-b6eb-4999-af3b-673cf54a0254",
-        "number": "55858",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "12:42:20",
-        "orderLocationInfo": {
-            "latitude": 50.4256605,
-            "longitude": 30.533513
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Коновальця Євгена вул., 36д"
-    },
-    {
-        "id": "27cd80cd-0f02-443b-b389-f240bfa967b6",
-        "number": "24733",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "12:55:05",
-        "orderLocationInfo": {
-            "latitude": 50.3984074,
-            "longitude": 30.5153983
-        },
-        "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
-            "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
-            }
-        },
-        "address": "Голосіївська вул., 19"
-    },
-    {
-        "id": "1ae20ef0-5973-4ce5-9537-4a4c7078edec",
-        "number": "24732",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "12:55:13",
-        "orderLocationInfo": {
-            "latitude": 50.3821219,
-            "longitude": 30.4760568
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Васильківська вул., 100 а"
-    },
-    {
-        "id": "98c92361-8049-4df9-9673-ad09bfa9754c",
-        "number": "55862",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "13:13:27",
-        "orderLocationInfo": {
-            "latitude": 50.4311532,
-            "longitude": 30.5421102
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Гуцала Євгена пров., 3"
-    },
-    {
-        "id": "539815b7-e6bf-471a-84d4-ef9778e5598e",
-        "number": "10562",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "13:17:34",
-        "orderLocationInfo": {
-            "latitude": 50.4739244,
-            "longitude": 30.4425049
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Щусєва вул., 13"
-    },
-    {
-        "id": "87f93a0e-01f1-4a52-8ef3-720cc5e26aef",
-        "number": "55860",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "13:20:41",
-        "orderLocationInfo": {
-            "latitude": 50.4101218,
-            "longitude": 30.5465873
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Драгомирова Михайла вул., 9"
-    },
-    {
-        "id": "09d7281d-a185-40f1-b775-a73e2b604c16",
-        "number": "55855",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "13:30:47",
-        "orderLocationInfo": {
-            "latitude": 50.41796,
-            "longitude": 30.5171451
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Малевича Казимира вул., 86д"
-    },
-    {
-        "id": "9071cae5-681d-48ca-8264-9ad46e929859",
-        "number": "8918",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "13:35:03",
-        "orderLocationInfo": {
-            "latitude": 49.8104952,
-            "longitude": 24.046301
-        },
-        "courier": {
-            "courierId": "b14aeeb6-8c1c-455f-a782-c2bf414a58cd",
-            "location": {
-                "latitude": 49.8376283,
-                "longitude": 24.0302379
-            }
-        },
-        "address": "просп. Червоної Калини, 1"
-    },
-    {
-        "id": "cc5a0e0d-15b3-45aa-aa43-e8ad249e17ce",
-        "number": "24735",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "13:35:23",
-        "orderLocationInfo": {
-            "latitude": 50.3816168,
-            "longitude": 30.477736
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Голосіївський пр-т, 132"
-    },
-    {
-        "id": "c228877d-666f-4b1a-9bea-9071a2cf1111",
-        "number": "55864",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "13:35:45",
-        "orderLocationInfo": {
-            "latitude": 50.447537,
-            "longitude": 30.5402493
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Грушевського Михайла вул., 7"
-    },
-    {
-        "id": "fa2ad93e-6b46-45c9-956b-794da18c9764",
-        "number": "36503",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "13:59:18",
-        "orderLocationInfo": {
-            "latitude": 50.5102787,
-            "longitude": 30.490846
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Тимошенка Маршала вул., 11"
-    },
-    {
-        "id": "b51a0876-5e1e-4ec1-bfc0-a096fc58a5ee",
-        "number": "55866",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "14:01:07",
-        "orderLocationInfo": {
-            "latitude": 50.4394998,
-            "longitude": 30.5450222
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Московська вул. Печерськ, 15"
-    },
-    {
-        "id": "2201be62-2c16-4b93-9736-a64cecfa2750",
-        "number": "55867",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "14:04:29",
-        "orderLocationInfo": {
-            "latitude": 50.4260126,
-            "longitude": 30.515206
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Антоновича вул., 81"
-    },
-    {
-        "id": "44f1a51e-88f7-4be8-b396-f2135f3616e0",
-        "number": "10568",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:05:08",
-        "orderLocationInfo": {
-            "latitude": 50.4474014,
-            "longitude": 30.4119554
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Гавела Вацлава бул., 8"
-    },
-    {
-        "id": "900fc274-4c72-4119-958d-ff4742d62f14",
-        "number": "10570",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:24:33",
-        "orderLocationInfo": {
-            "latitude": 50.4579786,
-            "longitude": 30.4058646
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Перемоги пр-т, 67"
-    },
-    {
-        "id": "04d501ba-4da1-4c13-b54c-b593bf1395cd",
-        "number": "55870",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "14:28:20",
-        "orderLocationInfo": {
-            "latitude": 50.4420623,
-            "longitude": 30.5350479
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Виноградний пров., 1/11"
-    },
-    {
-        "id": "7e30048e-1692-4f37-ba91-093942f873a6",
-        "number": "32862",
-        "status": "CLOSED",
+        "id": "22a574a5-e9dc-4c9a-861f-4e3c4cc38bae",
+        "number": "33598",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K4 Драгоманова",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "14:30:58",
+        "deadline": "11:56:47",
         "orderLocationInfo": {
-            "latitude": 50.4102302,
-            "longitude": 30.6371811
+            "latitude": 50.4271126,
+            "longitude": 30.6516914
         },
         "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
+            "courierId": "0a90a9a1-047f-4701-af00-2413e7506e7f",
             "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
+                "latitude": 50.3940187,
+                "longitude": 30.6353581
             }
         },
-        "address": "Ахматової Анни вул., 9/18"
+        "address": "Заслонова Костянтина вул., 9"
     },
     {
-        "id": "947f583d-1054-487c-81ad-b3ff42fcbbfa",
-        "number": "10571",
-        "status": "CLOSED",
+        "id": "41104f17-8620-4e24-98eb-0a51edb3466f",
+        "number": "56826",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:33:12",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "12:27:04",
         "orderLocationInfo": {
-            "latitude": 50.4535274,
-            "longitude": 30.3737218
+            "latitude": 50.435229,
+            "longitude": 30.465099
         },
         "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
+            "courierId": "cd542f18-397a-47e2-9f74-f9747d4774bb",
             "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
+                "latitude": 50.451195,
+                "longitude": 30.5059337
             }
         },
-        "address": "Верховинна вул., 34"
+        "address": "Генерала Генадія Воробьева вул., 13Б"
     },
     {
-        "id": "6fa9c997-c7b1-474b-8ba9-6fb960b90a60",
-        "number": "10572",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:40:24",
-        "orderLocationInfo": {
-            "latitude": 50.4629579,
-            "longitude": 30.3829858
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Хмельницька вул., 10"
-    },
-    {
-        "id": "1900d93b-2865-40f5-b336-e4a6a560d967",
-        "number": "55872",
-        "status": "CLOSED",
+        "id": "152a0532-cf59-407b-8b3c-683c1c28f362",
+        "number": "57393",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "14:42:39",
+        "deadline": "12:28:12",
         "orderLocationInfo": {
-            "latitude": 50.4344412,
-            "longitude": 30.5370585
+            "latitude": 50.4325071,
+            "longitude": 30.5423521
         },
         "courier": {
             "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
             "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
             }
         },
-        "address": "Панаса Мирного вул., 28а"
+        "address": "Копиленка Олександра вул., 6"
     },
     {
-        "id": "d4c1b598-1e73-46d2-ac74-0a4f5c5d93ff",
-        "number": "10573",
-        "status": "CLOSED",
+        "id": "e98579f2-cbe1-4fe5-ab5f-14d7e3ab20a2",
+        "number": "11768",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К8 Щербаковского",
         "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:46:30",
+        "deadline": "12:29:35",
         "orderLocationInfo": {
-            "latitude": 50.4579802,
-            "longitude": 30.4058653
+            "latitude": 50.4811809,
+            "longitude": 30.4261102
         },
         "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
             "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
             }
         },
-        "address": "Проспект победы, 67а"
+        "address": "Тираспольська вул., 58"
     },
     {
-        "id": "8f21bb04-f767-4420-87ed-c85e299c5137",
-        "number": "10565",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "14:47:18",
-        "orderLocationInfo": {
-            "latitude": 50.4173184,
-            "longitude": 30.3862298
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Кольцова бул., 3"
-    },
-    {
-        "id": "9af94c2f-2e0b-4e67-ac11-04e10855bcff",
-        "number": "24737",
-        "status": "CLOSED",
+        "id": "d175a324-3ffb-4809-a346-71fbd274abf6",
+        "number": "25784",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "14:49:36",
+        "deadline": "12:47:10",
         "orderLocationInfo": {
-            "latitude": 50.3981484,
-            "longitude": 30.5130169
+            "latitude": 50.407484,
+            "longitude": 30.514329
         },
         "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
+            "courierId": "f73d205f-952e-4eec-81bc-aedceeb792ce",
             "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
+                "latitude": 50.3999975,
+                "longitude": 30.5079437
             }
         },
-        "address": "Ракетна вул. Голосіївський, 24а"
+        "address": "Лобановського Валерія пр-т, 119х"
     },
     {
-        "id": "16f76f3c-e885-4afa-a0c3-1e950bc5242c",
-        "number": "8921",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "14:50:49",
-        "orderLocationInfo": {
-            "latitude": 49.8094942,
-            "longitude": 24.0434525
-        },
-        "courier": {
-            "courierId": "b14aeeb6-8c1c-455f-a782-c2bf414a58cd",
-            "location": {
-                "latitude": 49.8376283,
-                "longitude": 24.0302379
-            }
-        },
-        "address": "вул. Луганська, 18"
-    },
-    {
-        "id": "31097ac1-5664-4f39-b8d4-df0ceb3df1a3",
-        "number": "24741",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "15:06:58",
-        "orderLocationInfo": {
-            "latitude": 50.3816168,
-            "longitude": 30.477736
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Голосіївський пр-т, 132"
-    },
-    {
-        "id": "a231fc36-b8d2-4522-81d1-d0a6252f4ba0",
-        "number": "36507",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "15:24:22",
-        "orderLocationInfo": {
-            "latitude": 50.4929731,
-            "longitude": 30.5086067
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Йорданська вул., 4"
-    },
-    {
-        "id": "d3e0a571-ebbb-4f9d-b36a-92b9c144ea8e",
-        "number": "32863",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "15:30:11",
-        "orderLocationInfo": {
-            "latitude": 50.3979293,
-            "longitude": 30.6133327
-        },
-        "courier": {
-            "courierId": "ab21c2e5-1c3a-42fa-b51d-5495639bdb62",
-            "location": {
-                "latitude": 50.4022142,
-                "longitude": 30.6402318
-            }
-        },
-        "address": "Дніпровська наб., 18 а"
-    },
-    {
-        "id": "838c41ac-d0f6-474f-8355-90efabf8932e",
-        "number": "10579",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "15:35:32",
-        "orderLocationInfo": {
-            "latitude": 50.4695077,
-            "longitude": 30.4088224
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Ружинська вул., 12"
-    },
-    {
-        "id": "76594934-e96b-45bc-9c85-0d2d30384b46",
-        "number": "55878",
-        "status": "CLOSED",
+        "id": "1b294d79-3fdf-4eb3-b9c2-854fa3488981",
+        "number": "57395",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "15:43:14",
+        "deadline": "12:47:30",
+        "orderLocationInfo": {
+            "latitude": 50.4304893,
+            "longitude": 30.5496227
+        },
+        "courier": {
+            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
+            "location": {
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
+            }
+        },
+        "address": "Лейпцизька вул., 15б"
+    },
+    {
+        "id": "bd5ea43f-23ae-4ad2-9627-7311c345067d",
+        "number": "56833",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "12:58:51",
+        "orderLocationInfo": {
+            "latitude": 50.4472465,
+            "longitude": 30.5077359
+        },
+        "courier": {
+            "courierId": "72df1852-613f-4a92-b4bc-83e7b402e6e7",
+            "location": {
+                "latitude": 50.4225267,
+                "longitude": 30.4734197
+            }
+        },
+        "address": "Хмельницького Богдана вул. Шевченківський, 44"
+    },
+    {
+        "id": "07012fa2-2ead-44b1-a6c4-af133099ba24",
+        "number": "11771",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "13:11:59",
+        "orderLocationInfo": {
+            "latitude": 50.4424622,
+            "longitude": 30.4349734
+        },
+        "courier": {
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
+            "location": {
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
+            }
+        },
+        "address": "Борщагівська вул., 206"
+    },
+    {
+        "id": "026eb81b-592f-40c0-86b9-d5bfad646f6e",
+        "number": "11772",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "13:12:00",
+        "orderLocationInfo": {
+            "latitude": 50.4312253,
+            "longitude": 30.4270595
+        },
+        "courier": {
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
+            "location": {
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
+            }
+        },
+        "address": "Донця Михайла вул., 6"
+    },
+    {
+        "id": "4955e8d2-dfb7-469c-b184-cc12050f98b2",
+        "number": "56834",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "13:15:38",
+        "orderLocationInfo": {
+            "latitude": 50.4673529,
+            "longitude": 30.5113949
+        },
+        "courier": {
+            "courierId": "cd542f18-397a-47e2-9f74-f9747d4774bb",
+            "location": {
+                "latitude": 50.451195,
+                "longitude": 30.5059337
+            }
+        },
+        "address": "Костянтинівська вул., 20"
+    },
+    {
+        "id": "cd14ef90-68e5-4e73-962f-3564092400e4",
+        "number": "33600",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K4 Драгоманова",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
+        "deadline": "13:28:21",
+        "orderLocationInfo": {
+            "latitude": 50.4085304,
+            "longitude": 30.6249642
+        },
+        "courier": {
+            "courierId": "3e0f93d9-cbe3-450c-97aa-f4634227e53d",
+            "location": {
+                "latitude": 50.4025286,
+                "longitude": 30.6397554
+            }
+        },
+        "address": "Ахматової Анни вул., 22"
+    },
+    {
+        "id": "68526563-d331-4c73-b6c5-eaccd7716e2b",
+        "number": "57400",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К2 Гуцала",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
+        "deadline": "13:42:42",
+        "orderLocationInfo": {
+            "latitude": 50.4284482,
+            "longitude": 30.55321
+        },
+        "courier": {
+            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
+            "location": {
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
+            }
+        },
+        "address": "Редутна вул., 25а"
+    },
+    {
+        "id": "cfcbbfec-cbd1-47cb-b1b0-03984ba3e08a",
+        "number": "57397",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К2 Гуцала",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
+        "deadline": "14:15:51",
         "orderLocationInfo": {
             "latitude": 50.4311532,
             "longitude": 30.5421102
@@ -644,2950 +287,955 @@
         "courier": {
             "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
             "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
             }
         },
         "address": "Гуцала Євгена пров., 3"
     },
     {
-        "id": "29010dc7-8ea1-47b6-8964-5e99d77a0757",
-        "number": "10574",
-        "status": "CLOSED",
+        "id": "ea767661-f65f-4bfb-829a-dfd49b5a2509",
+        "number": "33602",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "15:59:51",
+        "kitchen": "K4 Драгоманова",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
+        "deadline": "14:28:27",
         "orderLocationInfo": {
-            "latitude": 50.4357472,
-            "longitude": 30.4315442
+            "latitude": 50.4090565,
+            "longitude": 30.6265226
         },
         "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
+            "courierId": "0a90a9a1-047f-4701-af00-2413e7506e7f",
             "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
+                "latitude": 50.3940187,
+                "longitude": 30.6353581
             }
         },
-        "address": "Донця Михайла вул., 2а"
+        "address": "Григоренка Петра пр-т, 22\\20"
     },
     {
-        "id": "c5e2daf9-639f-4a5d-8462-2aaab5c37fb9",
-        "number": "10581",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "16:00:29",
-        "orderLocationInfo": {
-            "latitude": 50.4627235,
-            "longitude": 30.3807096
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Вітрука Генерала вул., 23"
-    },
-    {
-        "id": "7a1badc5-7718-434e-90a9-1b858041ff04",
-        "number": "8920",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "16:00:43",
-        "orderLocationInfo": {
-            "latitude": 49.8435719,
-            "longitude": 24.0078936
-        },
-        "courier": {
-            "courierId": "b14aeeb6-8c1c-455f-a782-c2bf414a58cd",
-            "location": {
-                "latitude": 49.8376283,
-                "longitude": 24.0302379
-            }
-        },
-        "address": "пл. Святослава князя, 5"
-    },
-    {
-        "id": "5c3acd49-c129-445b-bda9-b6d0a4cb15c1",
-        "number": "24745",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "16:03:33",
-        "orderLocationInfo": {
-            "latitude": 50.4102288,
-            "longitude": 30.4929475
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Травневий пров., 7/15"
-    },
-    {
-        "id": "ca55abe9-19a3-455e-b3a0-7ced4a8c7b02",
-        "number": "10575",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "16:04:26",
-        "orderLocationInfo": {
-            "latitude": 50.4632679,
-            "longitude": 30.3530749
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Палладіна Академіка пр-т, 13"
-    },
-    {
-        "id": "c305e28a-289d-4d9b-a01d-97c079117c4d",
-        "number": "10576",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "16:07:19",
-        "orderLocationInfo": {
-            "latitude": 50.4239301,
-            "longitude": 30.4310779
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Патріотів вул., 98"
-    },
-    {
-        "id": "79a5b1d7-0f21-4b34-8a03-30928d8a63c0",
-        "number": "55880",
-        "status": "CLOSED",
+        "id": "38c1427a-d209-49bc-a5da-a73cb6b388bc",
+        "number": "57401",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "16:08:28",
+        "deadline": "14:36:25",
         "orderLocationInfo": {
-            "latitude": 50.4228397,
-            "longitude": 30.5418532
+            "latitude": 50.4023779,
+            "longitude": 30.5601043
         },
         "courier": {
             "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
             "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
             }
         },
-        "address": "Чигоріна вул., 61а"
+        "address": "Набережно-Печерська дор., 10 А"
     },
     {
-        "id": "19d309d3-0a8c-4e12-9fa1-214a078154f8",
-        "number": "10577",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "16:15:42",
-        "orderLocationInfo": {
-            "latitude": 50.4335007,
-            "longitude": 30.4231781
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Героїв Севастополя вул., 35а"
-    },
-    {
-        "id": "b8494a25-2bcb-4dfb-84be-b3eea987f6dd",
-        "number": "36510",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "16:21:32",
-        "orderLocationInfo": {
-            "latitude": 50.5129687,
-            "longitude": 30.4972737
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Оболонський пр-т, 19"
-    },
-    {
-        "id": "6f6df18c-aae8-4a1c-a315-fcbaf73837e6",
-        "number": "32867",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "16:30:00",
-        "orderLocationInfo": {
-            "latitude": 50.3958164,
-            "longitude": 30.6057436
-        },
-        "courier": {
-            "courierId": "ab21c2e5-1c3a-42fa-b51d-5495639bdb62",
-            "location": {
-                "latitude": 50.4022142,
-                "longitude": 30.6402318
-            }
-        },
-        "address": "Зарічна вул., 2"
-    },
-    {
-        "id": "b040d0f0-2428-4628-8d12-939f4e93ec7f",
-        "number": "55883",
-        "status": "CLOSED",
+        "id": "fbc0ebbb-5ecf-4144-9c87-c5dd77eb2406",
+        "number": "57404",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "16:30:18",
+        "deadline": "14:47:02",
         "orderLocationInfo": {
-            "latitude": 50.4311532,
-            "longitude": 30.5421102
+            "latitude": 50.4452922,
+            "longitude": 30.5360127
         },
         "courier": {
             "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
             "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
             }
         },
-        "address": "Гуцала Євгена пров., 3"
+        "address": "Інститутська вул., 21/8"
     },
     {
-        "id": "fe339fa1-fdcd-4bd8-9317-189e86f84670",
-        "number": "24744",
-        "status": "CLOSED",
+        "id": "9f6ab248-faf6-43a1-8177-f173c5a96cf3",
+        "number": "25790",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "16:31:10",
+        "deadline": "14:59:51",
         "orderLocationInfo": {
-            "latitude": 50.3843665,
-            "longitude": 30.4560309
+            "latitude": 50.3886952,
+            "longitude": 30.548311
         },
         "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
+            "courierId": "fc604d54-f29d-474b-96dc-7be03ff48673",
             "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
+                "latitude": 50.4001443,
+                "longitude": 30.5078908
             }
         },
-        "address": "Вільямса Академіка вул., 19/14"
+        "address": "Лисогірський пров., 20"
     },
     {
-        "id": "f83eca06-7037-47e0-a10b-8443d63987cc",
-        "number": "10580",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "16:34:16",
-        "orderLocationInfo": {
-            "latitude": 50.4840451,
-            "longitude": 30.4521631
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Бакинська вул., 37г"
-    },
-    {
-        "id": "49aeff71-0d90-40ae-8668-5f0525e36edb",
-        "number": "32870",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "16:58:26",
-        "orderLocationInfo": {
-            "latitude": 50.412114,
-            "longitude": 30.6570219
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Харківське шосе, 168-є"
-    },
-    {
-        "id": "b1f9ede1-56b8-4e3e-a441-ba875ba1e9b1",
-        "number": "32869",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "16:58:33",
-        "orderLocationInfo": {
-            "latitude": 50.3877007,
-            "longitude": 30.6274218
-        },
-        "courier": {
-            "courierId": "ab21c2e5-1c3a-42fa-b51d-5495639bdb62",
-            "location": {
-                "latitude": 50.4022142,
-                "longitude": 30.6402318
-            }
-        },
-        "address": "Русової Софії вул., 5"
-    },
-    {
-        "id": "4c88fdd9-bb02-43dc-9d2f-3ca34ae2c9ef",
-        "number": "24747",
-        "status": "CLOSED",
+        "id": "4d1108de-3841-4c97-8b2a-ff256af2266b",
+        "number": "25791",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "16:58:53",
+        "deadline": "15:00:33",
         "orderLocationInfo": {
-            "latitude": 50.4110508,
-            "longitude": 30.5002916
+            "latitude": 50.3867382,
+            "longitude": 30.4709941
         },
         "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
+            "courierId": "f73d205f-952e-4eec-81bc-aedceeb792ce",
             "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
+                "latitude": 50.3999975,
+                "longitude": 30.5079437
             }
         },
-        "address": "Брожка Володимира вул., 70"
+        "address": "Ломоносова вул., 71г"
     },
     {
-        "id": "d33fdd4f-e062-46a9-b9da-544f4cfd5078",
-        "number": "24749",
-        "status": "CLOSED",
+        "id": "d4f35751-bc87-484b-a6de-f9164cdf63fb",
+        "number": "25792",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "17:07:16",
-        "orderLocationInfo": {
-            "latitude": 50.4039833,
-            "longitude": 30.5302385
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Саперно-Слобідська вул., 8"
-    },
-    {
-        "id": "d70656ba-eb47-4469-b28b-99733beba428",
-        "number": "24752",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "17:09:10",
-        "orderLocationInfo": {
-            "latitude": 50.3933537,
-            "longitude": 30.5030161
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Ломоносова вул., 5 к2"
-    },
-    {
-        "id": "7ed3e69c-0303-4a51-8cbf-8b5ced001af4",
-        "number": "24754",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "17:21:27",
-        "orderLocationInfo": {
-            "latitude": 50.3922762,
-            "longitude": 30.4957908
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Дубініна Володі вул., 7/14"
-    },
-    {
-        "id": "fe400aed-f11a-416c-b490-e546488b476d",
-        "number": "24753",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "17:22:28",
-        "orderLocationInfo": {
-            "latitude": 50.3832618,
-            "longitude": 30.4854546
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Голосіївський пр-т, 95а"
-    },
-    {
-        "id": "f30e9bf8-ec55-4bbe-907b-ebb0b2cba07d",
-        "number": "36514",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "17:25:13",
-        "orderLocationInfo": {
-            "latitude": 50.5016563,
-            "longitude": 30.5110401
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Героїв Сталінграда пр-т, 13а"
-    },
-    {
-        "id": "d8410a2e-1ecf-415b-a18e-e12662d6dd0e",
-        "number": "55885",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "17:30:10",
-        "orderLocationInfo": {
-            "latitude": 50.4311532,
-            "longitude": 30.5421102
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Гуцала Євгена пров., 3"
-    },
-    {
-        "id": "78529be5-ed21-41aa-8429-0dc94b66fb45",
-        "number": "55890",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "17:36:09",
-        "orderLocationInfo": {
-            "latitude": 50.414458,
-            "longitude": 30.5251721
-        },
-        "courier": {
-            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
-            "location": {
-                "latitude": 50.43044,
-                "longitude": 30.5410533
-            }
-        },
-        "address": "Велика Васильківська вул., 139"
-    },
-    {
-        "id": "1b61b310-73ef-4037-b329-65e36fa339fb",
-        "number": "10582",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "17:37:48",
-        "orderLocationInfo": {
-            "latitude": 50.4426232,
-            "longitude": 30.4297894
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Гарматна вул., 38а"
-    },
-    {
-        "id": "176d1ed8-b8dc-4bab-90e0-cbd5f8855f57",
-        "number": "10584",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "17:37:59",
-        "orderLocationInfo": {
-            "latitude": 50.4687127,
-            "longitude": 30.4453758
-        },
-        "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
-            "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
-            }
-        },
-        "address": "Теліги Олени вул., 7Б"
-    },
-    {
-        "id": "fb5a6ec7-b01e-47fc-bd91-3fedd18c1fea",
-        "number": "8925",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "17:42:48",
-        "orderLocationInfo": {
-            "latitude": 49.839752,
-            "longitude": 24.0145752
-        },
-        "courier": {
-            "courierId": "d65d7f51-d8fd-438d-819c-24b3e0572068",
-            "location": {
-                "latitude": 49.8376342,
-                "longitude": 24.0302365
-            }
-        },
-        "address": "вул. Городоцька, 83"
-    },
-    {
-        "id": "fb7fbab9-cd2d-4d2d-b3ab-a9527265f27d",
-        "number": "32871",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "17:45:48",
-        "orderLocationInfo": {
-            "latitude": 50.4146251,
-            "longitude": 30.6343149
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Драгоманова вул., 8а"
-    },
-    {
-        "id": "d67dd5c9-d048-4c5e-92cf-2ab45733a38e",
-        "number": "10587",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "17:50:50",
-        "orderLocationInfo": {
-            "latitude": 50.4655864,
-            "longitude": 30.4297584
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Авіаконструктора Ігоря Сікорського, 4Б"
-    },
-    {
-        "id": "9888174d-389d-40de-8957-dd8e75b4d91e",
-        "number": "10586",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "17:51:51",
-        "orderLocationInfo": {
-            "latitude": 50.4664004,
-            "longitude": 30.4121563
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Ставропольська вул., 21"
-    },
-    {
-        "id": "773f0891-423c-474b-93a1-c578bda16b1f",
-        "number": "24739",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:00:11",
-        "orderLocationInfo": {
-            "latitude": 50.392923,
-            "longitude": 30.4750276
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Максимовича Михайла вул., 24а"
-    },
-    {
-        "id": "bcbdd095-bd35-4e51-8e82-3281e620840b",
-        "number": "55865",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:00:11",
-        "orderLocationInfo": {
-            "latitude": 50.408789,
-            "longitude": 30.5449542
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Драгомирова Михайла вул., 15"
-    },
-    {
-        "id": "c27cafe6-d0d8-418e-bbd7-9b312dcc4945",
-        "number": "55871",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:00:51",
-        "orderLocationInfo": {
-            "latitude": 50.408789,
-            "longitude": 30.5449542
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Драгомирова Михайла вул., 15"
-    },
-    {
-        "id": "310f57ed-6586-4323-a509-478be3e064b2",
-        "number": "24751",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:01:50",
-        "orderLocationInfo": {
-            "latitude": 50.3677898,
-            "longitude": 30.5545368
-        },
-        "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
-            "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
-            }
-        },
-        "address": "Набережно-Корчуватська вул., 35"
-    },
-    {
-        "id": "e1db1aae-59b9-4566-b5a4-0d39825fdb4e",
-        "number": "36522",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "18:07:17",
-        "orderLocationInfo": {
-            "latitude": 50.5211895,
-            "longitude": 30.4539095
-        },
-        "courier": {
-            "courierId": "bba3ac66-df9b-4bd8-9b86-63f70e8376e2",
-            "location": {
-                "latitude": 50.505274,
-                "longitude": 30.4871439
-            }
-        },
-        "address": "Полярна вул., 5"
-    },
-    {
-        "id": "36a9a1a3-5fa9-48e5-aa49-1d9990760122",
-        "number": "8928",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "18:11:10",
-        "orderLocationInfo": {
-            "latitude": 49.8314101,
-            "longitude": 24.0048822
-        },
-        "courier": {
-            "courierId": "b14aeeb6-8c1c-455f-a782-c2bf414a58cd",
-            "location": {
-                "latitude": 49.8376283,
-                "longitude": 24.0302379
-            }
-        },
-        "address": "вул. Коновальця, 41"
-    },
-    {
-        "id": "e5f8f5e4-b3af-4588-aa01-370892eb6765",
-        "number": "24760",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:12:14",
+        "deadline": "15:07:00",
         "orderLocationInfo": {
             "latitude": 50.3983334,
             "longitude": 30.5019026
         },
         "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
+            "courierId": "f73d205f-952e-4eec-81bc-aedceeb792ce",
             "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
+                "latitude": 50.3999975,
+                "longitude": 30.5079437
             }
         },
         "address": "Деміївська вул., 55"
     },
     {
-        "id": "72a60da6-9717-407b-9db9-9e40e361170a",
-        "number": "24761",
-        "status": "CLOSED",
+        "id": "1229afe1-a59c-41ba-8204-a2a30d5b1eaa",
+        "number": "86",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "Л2 Довженко",
+        "deliveryTerminalId": "de1406d0-29b2-d1bb-0184-4cd2aa540ab9",
+        "deadline": "15:07:58",
+        "orderLocationInfo": {
+            "latitude": 49.7950449,
+            "longitude": 24.0520546
+        },
+        "courier": {
+            "courierId": "868844d0-c0c2-4129-87bb-777f1a582167",
+            "location": {
+                "latitude": 49.7968638,
+                "longitude": 24.0539864
+            }
+        },
+        "address": "просп. Червоної Калини, 56"
+    },
+    {
+        "id": "1c10688c-daba-4e88-a6a3-abc4ca3dff0a",
+        "number": "25788",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:12:16",
+        "deadline": "15:13:21",
         "orderLocationInfo": {
-            "latitude": 50.4351975,
-            "longitude": 30.4762736
+            "latitude": 50.3815735,
+            "longitude": 30.4817256
         },
         "courier": {
             "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
             "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
+                "latitude": 50.400053617,
+                "longitude": 30.507934674
             }
         },
-        "address": "Богданівська вул., 7в"
+        "address": "Глушкова Академіка пр-т, 1"
     },
     {
-        "id": "1e649951-aa9d-4cea-95b8-708adae942c8",
-        "number": "32878",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "18:14:28",
-        "orderLocationInfo": {
-            "latitude": 50.4054222,
-            "longitude": 30.634811
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Григоренка Петра пр-т, 25б"
-    },
-    {
-        "id": "d949c01f-9781-44e0-893d-d73df38770d6",
-        "number": "24762",
-        "status": "CLOSED",
+        "id": "ec565c66-1852-4b39-95a5-0e66ff4cb403",
+        "number": "25793",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:14:32",
+        "deadline": "15:13:52",
         "orderLocationInfo": {
-            "latitude": 50.3951811,
-            "longitude": 30.5152531
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Рильського Максима вул., 15"
-    },
-    {
-        "id": "8d924d8e-f103-4007-89c7-2cc529b68e5e",
-        "number": "55895",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:15:13",
-        "orderLocationInfo": {
-            "latitude": 50.4255759,
-            "longitude": 30.5309483
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Коновальця Євгена вул., 32г"
-    },
-    {
-        "id": "e53b9c08-cad4-4dd5-9551-5e2da52966d8",
-        "number": "36519",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "18:21:26",
-        "orderLocationInfo": {
-            "latitude": 50.4964358,
-            "longitude": 30.4414982
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Данченка Сергія вул., 34"
-    },
-    {
-        "id": "c1fd5fd8-b35b-42db-8c4f-6246456f00d5",
-        "number": "36520",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "18:25:35",
-        "orderLocationInfo": {
-            "latitude": 50.5003548,
-            "longitude": 30.4557356
-        },
-        "courier": {
-            "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
-            "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
-            }
-        },
-        "address": "Попова пров., 5А"
-    },
-    {
-        "id": "aa1ce8bc-f63d-460b-aac2-2bca5060fddd",
-        "number": "10589",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "18:26:28",
-        "orderLocationInfo": {
-            "latitude": 50.4665448,
-            "longitude": 30.4298292
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Авіаконструктора Ігоря Сікорського, 4г"
-    },
-    {
-        "id": "ec0d6640-4967-4361-9158-b0c699648e24",
-        "number": "36521",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "18:26:57",
-        "orderLocationInfo": {
-            "latitude": 50.4896556,
-            "longitude": 30.4788726
-        },
-        "courier": {
-            "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
-            "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
-            }
-        },
-        "address": "Бандери Степана пр-т, 9 Б"
-    },
-    {
-        "id": "15df6e3b-07da-4e3f-adc9-1427c4df92aa",
-        "number": "55896",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:28:16",
-        "orderLocationInfo": {
-            "latitude": 50.4124926,
-            "longitude": 30.5293475
-        },
-        "courier": {
-            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
-            "location": {
-                "latitude": 50.43044,
-                "longitude": 30.5410533
-            }
-        },
-        "address": "Дружби народів бул., 3б"
-    },
-    {
-        "id": "fe29de13-ee53-48ed-bf7a-10ae3801259e",
-        "number": "55897",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:29:08",
-        "orderLocationInfo": {
-            "latitude": 50.406055,
-            "longitude": 30.556036
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Звіринецька вул., 61а"
-    },
-    {
-        "id": "28b3c9b0-31f9-4008-b589-79d9eb7faaf8",
-        "number": "24755",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:34:32",
-        "orderLocationInfo": {
-            "latitude": 50.3805418,
-            "longitude": 30.5330995
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Науки пр-т, 60а"
-    },
-    {
-        "id": "dbfa1f2c-e088-408e-8e73-9330aa88fdb7",
-        "number": "24757",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:35:46",
-        "orderLocationInfo": {
-            "latitude": 50.3776642,
-            "longitude": 30.4500033
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Лятошинського Композитора вул., 12"
-    },
-    {
-        "id": "a0ea108a-3a3f-4070-8a95-8ccc66175729",
-        "number": "36523",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "18:35:57",
-        "orderLocationInfo": {
-            "latitude": 50.5026087,
-            "longitude": 30.4270051
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "«Правди» пр-т, 41б"
-    },
-    {
-        "id": "830481ee-0e87-4cd0-be37-2bf865d9f642",
-        "number": "32882",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "18:39:48",
-        "orderLocationInfo": {
-            "latitude": 50.3947644,
-            "longitude": 30.6263899
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Гмирі Бориса вул., 2"
-    },
-    {
-        "id": "835c7d07-562a-4b10-acfb-110f200a5635",
-        "number": "55898",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:41:39",
-        "orderLocationInfo": {
-            "latitude": 50.4308818,
-            "longitude": 30.5394374
-        },
-        "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
-            "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
-            }
-        },
-        "address": "Лєскова вул., 6"
-    },
-    {
-        "id": "935e9fc3-3cc3-40c5-9fb2-2d6d554dc711",
-        "number": "55899",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "18:50:25",
-        "orderLocationInfo": {
-            "latitude": 50.4166421,
-            "longitude": 30.5204326
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Антоновича вул., 158"
-    },
-    {
-        "id": "eefdf4e4-c7e0-48c2-9720-4c037c8fadd6",
-        "number": "24771",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:51:07",
-        "orderLocationInfo": {
-            "latitude": 50.3857536,
-            "longitude": 30.4579985
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Вільямса Академіка вул., 15к3"
-    },
-    {
-        "id": "ad6a9168-600b-4c94-ac03-450e22a64220",
-        "number": "24772",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "18:52:22",
-        "orderLocationInfo": {
-            "latitude": 50.3924885,
-            "longitude": 30.471494
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Максимовича Михайла вул., 28б"
-    },
-    {
-        "id": "918a4be8-96de-408b-80cb-e1c913cb9530",
-        "number": "32884",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "18:57:47",
-        "orderLocationInfo": {
-            "latitude": 50.390111,
-            "longitude": 30.626478
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Чавдар Єлизавети вул., 34"
-    },
-    {
-        "id": "ede9e47a-7aa3-44b5-abd0-31e6a9d791d0",
-        "number": "32880",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:00:11",
-        "orderLocationInfo": {
-            "latitude": 50.4205628,
-            "longitude": 30.6539235
-        },
-        "courier": {
-            "courierId": "ab21c2e5-1c3a-42fa-b51d-5495639bdb62",
-            "location": {
-                "latitude": 50.4022142,
-                "longitude": 30.6402318
-            }
-        },
-        "address": "Харківське шосе, 55"
-    },
-    {
-        "id": "d6431454-2152-4134-a66b-df906e24fdbe",
-        "number": "36529",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "19:03:10",
-        "orderLocationInfo": {
-            "latitude": 50.5208306,
-            "longitude": 30.4642596
-        },
-        "courier": {
-            "courierId": "bba3ac66-df9b-4bd8-9b86-63f70e8376e2",
-            "location": {
-                "latitude": 50.505274,
-                "longitude": 30.4871439
-            }
-        },
-        "address": "Калнишевського Петра вул., 5"
-    },
-    {
-        "id": "8c98533b-54af-4e8a-9094-0ff88a58f2c1",
-        "number": "24763",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:03:54",
-        "orderLocationInfo": {
-            "latitude": 50.4300231,
-            "longitude": 30.4782976
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Липківського Василя Митрополита вул., 37В"
-    },
-    {
-        "id": "74c3aa6d-65e4-4e51-be08-3dfe2e74802e",
-        "number": "32886",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:07:48",
-        "orderLocationInfo": {
-            "latitude": 50.3956846,
-            "longitude": 30.6047876
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Зарічна вул., 4к2"
-    },
-    {
-        "id": "3206fc84-1eab-4b23-9c39-f163bfb5877b",
-        "number": "36525",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "19:08:25",
-        "orderLocationInfo": {
-            "latitude": 50.5135814,
-            "longitude": 30.4528011
-        },
-        "courier": {
-            "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
-            "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
-            }
-        },
-        "address": "Дубровицька вул., 7"
-    },
-    {
-        "id": "5ee1071f-7fb4-4e36-9fdc-39292808faa2",
-        "number": "24775",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:08:29",
-        "orderLocationInfo": {
-            "latitude": 50.3979539,
-            "longitude": 30.5058264
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Васильківська вул., 2а"
-    },
-    {
-        "id": "39b7c55e-a5e1-4df0-8839-7a97ed0998e6",
-        "number": "55903",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:10:58",
-        "orderLocationInfo": {
-            "latitude": 50.4185523,
-            "longitude": 30.5242445
-        },
-        "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
-            "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
-            }
-        },
-        "address": "Предславинська вул., 38"
-    },
-    {
-        "id": "b503f21c-6955-440e-b361-566e1ee9bb14",
-        "number": "36532",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "19:15:34",
-        "orderLocationInfo": {
-            "latitude": 50.507344,
-            "longitude": 30.5112437
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Героїв Сталінграда пр-т, 14"
-    },
-    {
-        "id": "5851b138-faa6-4e72-b873-e6df1c2ab5be",
-        "number": "55889",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:15:49",
-        "orderLocationInfo": {
-            "latitude": 50.4412854,
-            "longitude": 30.499243
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Саксаганського вул., 109/20"
-    },
-    {
-        "id": "f8380a3a-de81-446a-ae9e-8f9fd5ba905f",
-        "number": "55905",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:17:20",
-        "orderLocationInfo": {
-            "latitude": 50.4407258,
-            "longitude": 30.5474122
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Іпсилантіївський пров., 5"
-    },
-    {
-        "id": "8e3755fd-7416-4d4b-81c3-c77a5b21db78",
-        "number": "36533",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "19:18:11",
-        "orderLocationInfo": {
-            "latitude": 50.5209071,
-            "longitude": 30.4669325
-        },
-        "courier": {
-            "courierId": "bba3ac66-df9b-4bd8-9b86-63f70e8376e2",
-            "location": {
-                "latitude": 50.505274,
-                "longitude": 30.4871439
-            }
-        },
-        "address": "Калнишевського Петра вул., 6"
-    },
-    {
-        "id": "2076847c-db22-4171-835d-1dc0e548f51d",
-        "number": "32887",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:18:19",
-        "orderLocationInfo": {
-            "latitude": 50.4050686,
-            "longitude": 30.6698267
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Кам'янська вул., 128"
-    },
-    {
-        "id": "805e8d04-6172-4cec-9f46-04bb92b71212",
-        "number": "32888",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:23:06",
-        "orderLocationInfo": {
-            "latitude": 50.4066728,
-            "longitude": 30.6748279
-        },
-        "courier": {
-            "courierId": "ab584ae1-4fc8-46c9-85f5-8cc2afc6d133",
-            "location": {
-                "latitude": 50.24849,
-                "longitude": 31.093245
-            }
-        },
-        "address": "Харківське шосе, 190"
-    },
-    {
-        "id": "ddf70697-af37-4828-8dea-3edcb841effd",
-        "number": "32889",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:23:35",
-        "orderLocationInfo": {
-            "latitude": 50.4224087,
-            "longitude": 30.655843
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Славгородська вул., 2/10"
-    },
-    {
-        "id": "87225041-19a4-48ae-b386-cf5748c7631b",
-        "number": "10600",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:25:57",
-        "orderLocationInfo": {
-            "latitude": 50.4620403,
-            "longitude": 30.4062909
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Щербаківського Данила вул., 14"
-    },
-    {
-        "id": "f42d24ee-651a-43dd-bbc4-108dcb896dad",
-        "number": "24766",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:27:09",
-        "orderLocationInfo": {
-            "latitude": 50.3712046,
-            "longitude": 30.4552026
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Теремківська вул., 3а"
-    },
-    {
-        "id": "28786358-f1da-4a25-ad3c-4fe9c02f1050",
-        "number": "55908",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:27:48",
-        "orderLocationInfo": {
-            "latitude": 50.41141,
-            "longitude": 30.5340833
-        },
-        "courier": {
-            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
-            "location": {
-                "latitude": 50.43044,
-                "longitude": 30.5410533
-            }
-        },
-        "address": "Остапа Вишні вул., 9"
-    },
-    {
-        "id": "64444f33-3574-4960-acfc-74a3c58491e9",
-        "number": "36535",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "19:28:11",
-        "orderLocationInfo": {
-            "latitude": 50.5200697,
-            "longitude": 30.4639636
-        },
-        "courier": {
-            "courierId": "bba3ac66-df9b-4bd8-9b86-63f70e8376e2",
-            "location": {
-                "latitude": 50.505274,
-                "longitude": 30.4871439
-            }
-        },
-        "address": "Калнишевського Петра вул., 3"
-    },
-    {
-        "id": "c4ef0986-9450-48f6-86bc-19d08e42700c",
-        "number": "10591",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:32:13",
-        "orderLocationInfo": {
-            "latitude": 50.4325092,
-            "longitude": 30.4428021
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Новопольова вул., 2"
-    },
-    {
-        "id": "a5dce3ed-44da-48ea-805e-17a9d4d80b25",
-        "number": "24769",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:37:40",
-        "orderLocationInfo": {
-            "latitude": 50.424375,
-            "longitude": 30.460148
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Лобановського Валерія пр-т, 2/41"
-    },
-    {
-        "id": "28b9634e-2a68-46e1-ac8b-1e7abe5022e3",
-        "number": "55912",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:39:17",
-        "orderLocationInfo": {
-            "latitude": 50.4314725,
-            "longitude": 30.5483034
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Лейпцизька вул., 12"
-    },
-    {
-        "id": "d719316f-a48b-4bc8-9f34-ade4e95983bd",
-        "number": "32885",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "19:40:08",
-        "orderLocationInfo": {
-            "latitude": 50.431374,
-            "longitude": 30.6342639
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Харківське шосе, 19а"
-    },
-    {
-        "id": "d62d13ac-ef4f-42d6-9dd5-ed5f289ece45",
-        "number": "55911",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:40:18",
-        "orderLocationInfo": {
-            "latitude": 50.4212324,
-            "longitude": 30.5172989
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Антоновича вул., 124/128"
-    },
-    {
-        "id": "21a42ad8-1dd8-4241-af64-d2726747db48",
-        "number": "24774",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:44:24",
-        "orderLocationInfo": {
-            "latitude": 50.4299697,
-            "longitude": 30.4871658
+            "latitude": 50.4226408,
+            "longitude": 30.4525896
         },
         "courier": {
             "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
             "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
+                "latitude": 50.400053617,
+                "longitude": 30.507934674
             }
         },
-        "address": "Кудряшова вул., 20Б"
+        "address": "Смілянська вул., 8"
     },
     {
-        "id": "dca8b3e9-4b62-4357-9f35-65e55d21138a",
-        "number": "10593",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:44:37",
-        "orderLocationInfo": {
-            "latitude": 50.4325092,
-            "longitude": 30.4428021
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Новопольова вул., 2"
-    },
-    {
-        "id": "43036a22-5d9c-4a45-8705-c30dac9116cc",
-        "number": "24773",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:49:35",
-        "orderLocationInfo": {
-            "latitude": 50.4351476,
-            "longitude": 30.4494553
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Ушинського вул., 8"
-    },
-    {
-        "id": "aa7d5d20-012c-4028-a8c7-dd8c3cceaaa6",
-        "number": "55914",
-        "status": "CLOSED",
+        "id": "964206be-e17a-44e1-8c5e-f118f5f003e0",
+        "number": "57405",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:50:20",
-        "orderLocationInfo": {
-            "latitude": 50.4271513,
-            "longitude": 30.5357251
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Коновальця Євгена вул., 37"
-    },
-    {
-        "id": "ca5d4ac7-90be-45f2-91bb-9e45c0087cdf",
-        "number": "24783",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:52:45",
-        "orderLocationInfo": {
-            "latitude": 50.4041085,
-            "longitude": 30.512094
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Деміївська вул., 14"
-    },
-    {
-        "id": "6af7ff7f-0436-43ad-b641-fb313472c480",
-        "number": "10596",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:52:47",
-        "orderLocationInfo": {
-            "latitude": 50.4793914,
-            "longitude": 30.4503198
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Теліги Олени вул., 35б"
-    },
-    {
-        "id": "07d35df5-7bc1-4376-8cba-d82266a1b4dd",
-        "number": "24784",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:53:23",
-        "orderLocationInfo": {
-            "latitude": 50.3926503,
-            "longitude": 30.4737412
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Максимовича Михайла вул., 26"
-    },
-    {
-        "id": "dead02b3-f4c8-40ad-ac50-40286c2ed991",
-        "number": "24777",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:53:34",
-        "orderLocationInfo": {
-            "latitude": 50.4382825,
-            "longitude": 30.4791066
-        },
-        "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
-            "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
-            }
-        },
-        "address": "Стадіонна вул. Солом'янка, 13"
-    },
-    {
-        "id": "452185f2-368f-4a40-b110-d0813c9165d9",
-        "number": "55916",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "19:53:46",
-        "orderLocationInfo": {
-            "latitude": 50.4146665,
-            "longitude": 30.5445705
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Підвисоцького Професора вул., 6а"
-    },
-    {
-        "id": "ab265316-6047-43ec-b94f-e06e49f881fc",
-        "number": "24785",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:55:42",
-        "orderLocationInfo": {
-            "latitude": 50.3823571,
-            "longitude": 30.4626793
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Конєва Маршала вул., 5Д"
-    },
-    {
-        "id": "d0698722-60a3-4b8d-938b-ada4097693c7",
-        "number": "24789",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:57:15",
-        "orderLocationInfo": {
-            "latitude": 50.39155,
-            "longitude": 30.4943056
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Ломоносова вул., 19/11"
-    },
-    {
-        "id": "3658a39e-7fab-4b9a-9515-56b3a81263e4",
-        "number": "24786",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:57:16",
-        "orderLocationInfo": {
-            "latitude": 50.4020837,
-            "longitude": 30.5161024
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Голосіївський пр-т, 19"
-    },
-    {
-        "id": "d655a096-c569-487d-9d30-1db810e23346",
-        "number": "10595",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:57:54",
-        "orderLocationInfo": {
-            "latitude": 50.4285397,
-            "longitude": 30.3938777
-        },
-        "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
-            "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
-            }
-        },
-        "address": "Корольова Академіка пр-т, 4"
-    },
-    {
-        "id": "f4123c94-07b1-4051-91a3-cc604703356c",
-        "number": "10594",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "19:58:55",
-        "orderLocationInfo": {
-            "latitude": 50.447033,
-            "longitude": 30.4343549
-        },
-        "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
-            "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
-            }
-        },
-        "address": "Гарматна вул., 31 А"
-    },
-    {
-        "id": "1879be38-f894-4cae-b2bf-ee5415f502e8",
-        "number": "24787",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "19:59:38",
-        "orderLocationInfo": {
-            "latitude": 50.3853705,
-            "longitude": 30.4592967
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Вільямса Академіка вул., 15 корп 3"
-    },
-    {
-        "id": "af1797f1-2b9c-473b-af85-cb2e0038b978",
-        "number": "10590",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:00:15",
-        "orderLocationInfo": {
-            "latitude": 50.4627459,
-            "longitude": 30.4315854
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Авіаконструктора Ігоря Сікорського, 1б"
-    },
-    {
-        "id": "904290d9-520d-4efa-af7a-225db14f6fdc",
-        "number": "24750",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:00:36",
-        "orderLocationInfo": {
-            "latitude": 50.3862521,
-            "longitude": 30.4889525
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Голосіївський пр-т, 114"
-    },
-    {
-        "id": "70aef45c-1816-4f76-8e31-ff1c593857ba",
-        "number": "24779",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:04:45",
-        "orderLocationInfo": {
-            "latitude": 50.4262801,
-            "longitude": 30.4926185
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Волгоградська вул., 9"
-    },
-    {
-        "id": "040265bd-d42d-46d0-a856-86b408506c2b",
-        "number": "24791",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:04:47",
-        "orderLocationInfo": {
-            "latitude": 50.402368,
-            "longitude": 30.5192295
-        },
-        "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
-            "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
-            }
-        },
-        "address": "Голосіївський пр-т, 15б"
-    },
-    {
-        "id": "00ed4549-1521-4970-9012-a2e4ec7ff12c",
-        "number": "24776",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:06:58",
-        "orderLocationInfo": {
-            "latitude": 50.4270927,
-            "longitude": 30.4556348
-        },
-        "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
-            "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
-            }
-        },
-        "address": "Мартиросяна вул., 5"
-    },
-    {
-        "id": "1e3ddf33-5fe8-4b58-84fa-df93d2887da0",
-        "number": "32891",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "20:09:16",
-        "orderLocationInfo": {
-            "latitude": 50.4226368,
-            "longitude": 30.6040217
-        },
-        "courier": {
-            "courierId": "ab21c2e5-1c3a-42fa-b51d-5495639bdb62",
-            "location": {
-                "latitude": 50.4022142,
-                "longitude": 30.6402318
-            }
-        },
-        "address": "Шумського Юрія вул., 5"
-    },
-    {
-        "id": "8727693a-5e4f-4c2a-b91c-9399aa8428db",
-        "number": "10597",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:16:05",
-        "orderLocationInfo": {
-            "latitude": 50.4207833,
-            "longitude": 30.3728046
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Зодчих вул., 30"
-    },
-    {
-        "id": "f0bd3eaa-b2d7-49fa-8fe6-f3083727fa63",
-        "number": "32900",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "20:16:19",
-        "orderLocationInfo": {
-            "latitude": 50.4120799,
-            "longitude": 30.6305912
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Григоренка Петра пр-т, 7в"
-    },
-    {
-        "id": "af33e9f6-9921-4f13-9177-b7f15be2d59f",
-        "number": "55913",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:16:36",
-        "orderLocationInfo": {
-            "latitude": 50.440879,
-            "longitude": 30.527582
-        },
-        "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
-            "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
-            }
-        },
-        "address": "Шовковична вул., 38"
-    },
-    {
-        "id": "ac042576-a661-4725-86cc-586388abc823",
-        "number": "32901",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K4 Драгоманова",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
-        "deadline": "20:19:09",
-        "orderLocationInfo": {
-            "latitude": 50.4180003,
-            "longitude": 30.6334984
-        },
-        "courier": {
-            "courierId": "114389e2-fd24-4bc7-ad98-34691a96bd4a",
-            "location": {
-                "latitude": 50.418548261,
-                "longitude": 30.634514404
-            }
-        },
-        "address": "Драгоманова вул., 2 А"
-    },
-    {
-        "id": "d16a698c-54fa-491e-bc12-8cf759b21881",
-        "number": "10598",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:20:19",
-        "orderLocationInfo": {
-            "latitude": 50.442473,
-            "longitude": 30.4279969
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Гарматна вул., 38Б"
-    },
-    {
-        "id": "15f4d039-6261-4337-96f2-2f38522d5934",
-        "number": "55924",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:20:43",
-        "orderLocationInfo": {
-            "latitude": 50.4185122,
-            "longitude": 30.5175455
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "Малевича Казимира вул., 89"
-    },
-    {
-        "id": "2bb11b43-b03f-48a1-8c56-34c8afb8b54d",
-        "number": "10611",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:21:47",
-        "orderLocationInfo": {
-            "latitude": 50.45709,
-            "longitude": 30.401872
-        },
-        "courier": {
-            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
-            "location": {
-                "latitude": 50.4620797,
-                "longitude": 30.4066142
-            }
-        },
-        "address": "Проспект победы, 71А"
-    },
-    {
-        "id": "44499ff0-ae11-4604-b8bd-8949bd4b7a46",
-        "number": "55925",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:25:31",
-        "orderLocationInfo": {
-            "latitude": 50.4225097,
-            "longitude": 30.5413028
-        },
-        "courier": {
-            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
-            "location": {
-                "latitude": 50.43044,
-                "longitude": 30.5410533
-            }
-        },
-        "address": "Чигоріна вул., 61"
-    },
-    {
-        "id": "444e9f37-e3a1-487a-b949-6aab7997ad90",
-        "number": "10605",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:25:39",
-        "orderLocationInfo": {
-            "latitude": 50.459186,
-            "longitude": 30.4840542
-        },
-        "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
-            "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
-            }
-        },
-        "address": "Коперніка вул., 3"
-    },
-    {
-        "id": "8129338e-3c0d-4fef-b894-5bcf78d05dbc",
-        "number": "55926",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:26:41",
-        "orderLocationInfo": {
-            "latitude": 50.4157278,
-            "longitude": 30.552038
-        },
-        "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
-            "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
-            }
-        },
-        "address": "Білокур Катерини вул., 5/17"
-    },
-    {
-        "id": "f4d2e4ab-a1bc-48f0-8d51-b9b533f1b7f2",
-        "number": "55927",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:28:36",
-        "orderLocationInfo": {
-            "latitude": 50.4291782,
-            "longitude": 30.4942108
-        },
-        "courier": {
-            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
-            "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
-            }
-        },
-        "address": "Волгоградська вул., 2"
-    },
-    {
-        "id": "0d0b3167-756c-4d92-ac2e-297e775101ff",
-        "number": "55929",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:29:39",
+        "deadline": "15:16:43",
         "orderLocationInfo": {
             "latitude": 50.4311532,
             "longitude": 30.5421102
         },
         "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
+            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
             "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
             }
         },
         "address": "Гуцала Євгена пров., 3"
     },
     {
-        "id": "8631340c-4d63-48b3-9fb8-15eb332ce3d3",
-        "number": "24796",
-        "status": "CLOSED",
+        "id": "6dc6a4d6-4942-41ff-8c5f-38e414134afe",
+        "number": "11777",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:29:39",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "15:20:26",
         "orderLocationInfo": {
-            "latitude": 50.3896648,
-            "longitude": 30.4776109
+            "latitude": 50.4718017,
+            "longitude": 30.3984191
         },
         "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
             "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
             }
         },
-        "address": "Ломоносова вул., 34а"
+        "address": "Салютна вул., 2"
     },
     {
-        "id": "4dd568e2-a3ef-472a-bb89-00a14678fc47",
-        "number": "36517",
-        "status": "CLOSED",
+        "id": "f3c6cbe1-04ca-4fde-9403-f07863cf895f",
+        "number": "11779",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "20:30:02",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "15:41:37",
         "orderLocationInfo": {
-            "latitude": 50.4989445,
-            "longitude": 30.5145632
+            "latitude": 50.4680853,
+            "longitude": 30.446316
         },
         "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
             "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
             }
         },
-        "address": "Героїв Сталінграда пр-т, 9"
+        "address": "Теліги Олени вул., 7"
     },
     {
-        "id": "5c0fddb6-8487-4911-944c-465b87acdd94",
-        "number": "55930",
-        "status": "ON_WAY",
+        "id": "3b57d1bd-1b6d-4cc4-95fd-78adb2cf5eaf",
+        "number": "57408",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:31:21",
+        "deadline": "15:42:35",
         "orderLocationInfo": {
-            "latitude": 50.4240541,
-            "longitude": 30.534238
+            "latitude": 50.4324152,
+            "longitude": 30.5131643
         },
         "courier": {
             "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
             "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
             }
         },
-        "address": "Коновальця Євгена вул., 36е"
+        "address": "Антоновича вул., 50"
     },
     {
-        "id": "acfde0a6-77e5-4fd0-bf07-3ddb8b6bde9e",
-        "number": "55932",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:33:22",
-        "orderLocationInfo": {
-            "latitude": 50.4190032,
-            "longitude": 30.5550905
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Мічуріна вул. Печерський, 2"
-    },
-    {
-        "id": "b47aeec7-20a6-4d26-93fa-c81ac098fd65",
-        "number": "24788",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "20:34:37",
-        "orderLocationInfo": {
-            "latitude": 50.4310605,
-            "longitude": 30.4775347
-        },
-        "courier": {
-            "courierId": "8cdb90d5-7b59-4e75-a8da-a8b6f4be3d71",
-            "location": {
-                "latitude": 50.430920119,
-                "longitude": 30.478194762
-            }
-        },
-        "address": "Липківського Василя Митрополита вул., 37б"
-    },
-    {
-        "id": "8d64030b-24ca-44a4-8fef-2284bcc840f5",
-        "number": "10607",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "20:36:42",
-        "orderLocationInfo": {
-            "latitude": 50.4780262,
-            "longitude": 30.447416
-        },
-        "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
-            "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
-            }
-        },
-        "address": "Ольжича вул., 11"
-    },
-    {
-        "id": "382f46a6-3c7a-4406-9b5a-a5572fa1fca6",
-        "number": "36538",
-        "status": "CLOSED",
+        "id": "c23cd911-e5a1-4f42-a252-5f7912212015",
+        "number": "37672",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K3 Богатырская",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "20:40:06",
+        "deadline": "15:45:34",
         "orderLocationInfo": {
-            "latitude": 50.5063743,
-            "longitude": 30.4578679
+            "latitude": 50.5092294,
+            "longitude": 30.449243
         },
         "courier": {
             "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
             "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
+                "latitude": 50.5182219,
+                "longitude": 30.4856432
             }
         },
-        "address": "Автозаводська вул., 25 В"
+        "address": "Вишгородська вул., 45"
     },
     {
-        "id": "7b0da008-db01-4e3b-85e0-4d0e410703cb",
-        "number": "55915",
-        "status": "ON_WAY",
+        "id": "b522a324-8a6c-4c53-8f19-35cc260b3424",
+        "number": "23281",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:45:11",
+        "kitchen": "К6 Соборности",
+        "deliveryTerminalId": "9c8217c9-b0c5-5156-017a-8073f2d2b229",
+        "deadline": "15:59:06",
         "orderLocationInfo": {
-            "latitude": 50.4176497,
-            "longitude": 30.5352721
+            "latitude": 50.4701455,
+            "longitude": 30.6043267
         },
         "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
+            "courierId": "5fa7cac1-4e36-470f-b26c-0faccece9da0",
             "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
+                "latitude": 50.456838571,
+                "longitude": 30.651009483
             }
         },
-        "address": "Глазунова вул., 3"
+        "address": "Воскресенська вул., 18А"
     },
     {
-        "id": "6a961511-3775-4499-8ddf-c9b85f15fe9a",
-        "number": "55931",
-        "status": "ON_WAY",
+        "id": "2f99fbb5-2387-43c5-be60-83fec722c048",
+        "number": "57409",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:50:00",
+        "deadline": "15:59:19",
         "orderLocationInfo": {
             "latitude": 50.4311532,
             "longitude": 30.5421102
         },
         "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
+            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
             "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
             }
         },
         "address": "Гуцала Євгена пров., 3"
     },
     {
-        "id": "4a87171d-182a-4914-aaf2-20472561c9b8",
-        "number": "55935",
-        "status": "CLOSED",
+        "id": "2c01df60-c01d-4e98-8b87-4136d03e5ca1",
+        "number": "37673",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "20:55:58",
+        "kitchen": "K3 Богатырская",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
+        "deadline": "16:19:08",
         "orderLocationInfo": {
-            "latitude": 50.4230895,
-            "longitude": 30.5308298
+            "latitude": 50.4946797,
+            "longitude": 30.5117531
         },
         "courier": {
-            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
+            "courierId": "78e1a422-2c15-45be-bc50-1c2fb5fef3e9",
             "location": {
-                "latitude": 50.43044,
-                "longitude": 30.5410533
+                "latitude": 50.5182244,
+                "longitude": 30.4856568
             }
         },
-        "address": "Тверський тупик, 7б"
+        "address": "Архипенка Олександра вул., 6-Б"
     },
     {
-        "id": "03cd2437-8eeb-4305-8c25-077cd5184246",
-        "number": "55901",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:00:23",
-        "orderLocationInfo": {
-            "latitude": 50.4229963,
-            "longitude": 30.5431095
-        },
-        "courier": {
-            "courierId": "7bbcff2c-d624-444a-b476-9ba0d59d40c9",
-            "location": {
-                "latitude": 50.4116431,
-                "longitude": 30.6277786
-            }
-        },
-        "address": "бул. Лесі Українки, 30"
-    },
-    {
-        "id": "8db8cb20-2259-4a96-a45c-55ce05d01c64",
-        "number": "24764",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "21:00:28",
-        "orderLocationInfo": {
-            "latitude": 50.3710568,
-            "longitude": 30.4641094
-        },
-        "courier": {
-            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
-            "location": {
-                "latitude": 50.364185263,
-                "longitude": 30.462973087
-            }
-        },
-        "address": "Глушкова Академіка пр-т, 9в"
-    },
-    {
-        "id": "7cffc884-8bb9-42c9-bed2-e0c9143d1cb9",
-        "number": "10616",
-        "status": "CLOSED",
+        "id": "d0651018-4fe6-4a43-851e-1606934c6494",
+        "number": "11782",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К8 Щербаковского",
         "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "21:01:48",
+        "deadline": "16:24:44",
         "orderLocationInfo": {
-            "latitude": 50.4542911,
-            "longitude": 30.376322
+            "latitude": 50.4574255,
+            "longitude": 30.431213
         },
         "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
             "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
             }
         },
-        "address": "Львівська вул., 15"
+        "address": "Перемоги пр-т, 66"
     },
     {
-        "id": "65c58d36-c2b2-418a-8101-1b13bd6e9297",
-        "number": "55938",
-        "status": "ON_WAY",
+        "id": "cf3e3c43-dd10-448f-9742-1b004e2d202b",
+        "number": "25797",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K5 Деміївська",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
+        "deadline": "16:25:38",
+        "orderLocationInfo": {
+            "latitude": 50.3821219,
+            "longitude": 30.4760568
+        },
+        "courier": {
+            "courierId": "fc604d54-f29d-474b-96dc-7be03ff48673",
+            "location": {
+                "latitude": 50.4001443,
+                "longitude": 30.5078908
+            }
+        },
+        "address": "Васильківська вул., 100А"
+    },
+    {
+        "id": "b0240677-351f-4cb7-bb06-91e18fee93ea",
+        "number": "25783",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K5 Деміївська",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
+        "deadline": "16:30:02",
+        "orderLocationInfo": {
+            "latitude": 50.3761559,
+            "longitude": 30.4520718
+        },
+        "courier": {
+            "courierId": "fc604d54-f29d-474b-96dc-7be03ff48673",
+            "location": {
+                "latitude": 50.4001443,
+                "longitude": 30.5078908
+            }
+        },
+        "address": "Лятошинського Композитора вул., 4"
+    },
+    {
+        "id": "21fd99ea-6b08-423b-99fc-34d64db03101",
+        "number": "57413",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:05:40",
+        "deadline": "16:31:12",
         "orderLocationInfo": {
-            "latitude": 50.4354538,
-            "longitude": 30.5125045
+            "latitude": 50.4441035,
+            "longitude": 30.5345846
         },
         "courier": {
             "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
             "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
             }
         },
-        "address": "Саксаганського вул., 37к"
+        "address": "Липська вул., 12/5"
     },
     {
-        "id": "9a459888-4967-4d83-965c-82b67656ad7e",
-        "number": "10610",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "21:13:19",
-        "orderLocationInfo": {
-            "latitude": 50.4696814,
-            "longitude": 30.3355549
-        },
-        "courier": {
-            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
-            "location": {
-                "latitude": 50.4577279,
-                "longitude": 30.4243633
-            }
-        },
-        "address": "Булаховського Академіка вул., 32"
-    },
-    {
-        "id": "b443f615-c297-4a0e-af4c-f7c2c770c8aa",
-        "number": "36546",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "21:16:32",
-        "orderLocationInfo": {
-            "latitude": 50.5022107,
-            "longitude": 30.4256059
-        },
-        "courier": {
-            "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
-            "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
-            }
-        },
-        "address": "«Правди» пр-т, 43а"
-    },
-    {
-        "id": "c8826231-0448-4ec2-97b1-aeb1696c9eb9",
-        "number": "55940",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:16:46",
-        "orderLocationInfo": {
-            "latitude": 50.4251083,
-            "longitude": 30.5324749
-        },
-        "courier": {
-            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
-            "location": {
-                "latitude": 50.1714667,
-                "longitude": 30.966805
-            }
-        },
-        "address": "Коновальця Євгена вул., 36В"
-    },
-    {
-        "id": "baa8dfbf-4720-40c7-9c53-96251a5ba753",
-        "number": "36547",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "21:20:00",
-        "orderLocationInfo": {
-            "latitude": 50.4666398,
-            "longitude": 30.521937
-        },
-        "courier": {
-            "courierId": "918865a5-d56a-4080-bb66-e01d4e8a9442",
-            "location": {
-                "latitude": 50.5055062,
-                "longitude": 30.491986
-            }
-        },
-        "address": "Сковороди Григорія вул., 6"
-    },
-    {
-        "id": "a6206e6c-5449-4735-8b61-c5498b95c18d",
-        "number": "36550",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K3 Богатырская",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-14ebf6658bd3",
-        "deadline": "21:20:51",
-        "orderLocationInfo": {
-            "latitude": 50.4988887,
-            "longitude": 30.4672932
-        },
-        "courier": {
-            "courierId": "f7b60172-6ebd-4bb0-8456-71c7a1b2c8ec",
-            "location": {
-                "latitude": 50.5063651,
-                "longitude": 30.501079
-            }
-        },
-        "address": "Балтійський пров., 3а"
-    },
-    {
-        "id": "8b53ac36-79f5-4c75-88c0-a3be931d8929",
-        "number": "24801",
-        "status": "ON_WAY",
+        "id": "6a8737eb-bea1-4b72-9e6f-d3c79209364c",
+        "number": "25795",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "K5 Деміївська",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "21:22:58",
+        "deadline": "16:41:11",
         "orderLocationInfo": {
-            "latitude": 50.4330473,
-            "longitude": 30.4787499
+            "latitude": 50.4265315,
+            "longitude": 30.4560382
         },
         "courier": {
-            "courierId": "21a6aa40-70c8-4b98-a0fc-b00f8f4661d0",
+            "courierId": "f73d205f-952e-4eec-81bc-aedceeb792ce",
             "location": {
-                "latitude": 50.4331371,
-                "longitude": 30.4790398
+                "latitude": 50.3999975,
+                "longitude": 30.5079437
             }
         },
-        "address": "Липківського Василя Митрополита вул., 32"
+        "address": "Мартиросяна вул., 3"
     },
     {
-        "id": "e0bfbf1c-a4db-496e-bf2f-069b58ec12df",
-        "number": "55945",
-        "status": "CLOSED",
+        "id": "63c3766f-704b-4642-ba28-91a3819591c2",
+        "number": "57416",
+        "status": "Закрыта",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:28:37",
+        "deadline": "16:47:12",
         "orderLocationInfo": {
-            "latitude": 50.3984298,
-            "longitude": 30.4688035
-        },
-        "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
-            "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
-            }
-        },
-        "address": "Березова вул., 45"
-    },
-    {
-        "id": "3fde0d2d-4d0c-4ae8-80ca-acec9fff96bd",
-        "number": "10614",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "21:30:04",
-        "orderLocationInfo": {
-            "latitude": 50.4360603,
-            "longitude": 30.4342082
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Відрадний пр-т, 2"
-    },
-    {
-        "id": "fdad183c-b37e-4cbf-b7b1-6f10d4205ee1",
-        "number": "8954",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "Л1 Чайковского",
-        "deliveryTerminalId": "89d9a903-71f3-e394-017f-fe6cce52a284",
-        "deadline": "21:30:24",
-        "orderLocationInfo": {
-            "latitude": 49.8112201,
-            "longitude": 24.0021894
-        },
-        "courier": {
-            "courierId": "d65d7f51-d8fd-438d-819c-24b3e0572068",
-            "location": {
-                "latitude": 49.8376342,
-                "longitude": 24.0302365
-            }
-        },
-        "address": "вул. Володимира Великого, 22а"
-    },
-    {
-        "id": "360c5e6b-1f2a-4fe4-a01e-981e0bed7ac4",
-        "number": "10615",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К8 Щербаковского",
-        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "21:34:55",
-        "orderLocationInfo": {
-            "latitude": 50.4357472,
-            "longitude": 30.4315442
-        },
-        "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
-            "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
-            }
-        },
-        "address": "Донця Михайла вул., 2 а"
-    },
-    {
-        "id": "48cd9d9e-2cf7-4a2b-bce7-aedeca8580f2",
-        "number": "24800",
-        "status": "ON_WAY",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "K5 Деміївська",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
-        "deadline": "21:39:10",
-        "orderLocationInfo": {
-            "latitude": 50.4242373,
-            "longitude": 30.4578227
-        },
-        "courier": {
-            "courierId": "7ce99ea8-2730-4795-b0b2-46011cc33ea4",
-            "location": {
-                "latitude": 50.4241628,
-                "longitude": 30.4574289
-            }
-        },
-        "address": "Повітрофлотський пр-т, 52"
-    },
-    {
-        "id": "f3c07fd0-1a78-4a59-8a95-4815eddb46ec",
-        "number": "55939",
-        "status": "CLOSED",
-        "type": "DELIVERY_BY_COURIER",
-        "kitchen": "К2 Гуцала",
-        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:43:47",
-        "orderLocationInfo": {
-            "latitude": 50.394046,
-            "longitude": 30.5372137
+            "latitude": 50.4325071,
+            "longitude": 30.5423521
         },
         "courier": {
             "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
             "location": {
-                "latitude": 50.4171655,
-                "longitude": 30.5332892
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
             }
         },
-        "address": "Писаржевського Академіка вул., 8а"
+        "address": "Копиленка Олександра вул., 6"
     },
     {
-        "id": "a6bd15e1-ffa6-4eb1-a305-be4281f71836",
-        "number": "55946",
-        "status": "ON_WAY",
+        "id": "35639096-a7e8-43f7-801c-d904d45bbdc6",
+        "number": "33605",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K4 Драгоманова",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
+        "deadline": "16:56:26",
+        "orderLocationInfo": {
+            "latitude": 50.3974905,
+            "longitude": 30.5998192
+        },
+        "courier": {
+            "courierId": "3e0f93d9-cbe3-450c-97aa-f4634227e53d",
+            "location": {
+                "latitude": 50.4025286,
+                "longitude": 30.6397554
+            }
+        },
+        "address": "Осокорська вул., 2а"
+    },
+    {
+        "id": "c7e01312-84f0-4976-b46c-1d9ac9e753d1",
+        "number": "11770",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "17:00:29",
+        "orderLocationInfo": {
+            "latitude": 50.4665106,
+            "longitude": 30.4150534
+        },
+        "courier": {
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
+            "location": {
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
+            }
+        },
+        "address": "Вірського Павла вул., 6"
+    },
+    {
+        "id": "c791e2b4-d68b-4840-a4a7-421e0f1a377e",
+        "number": "56851",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "17:06:20",
+        "orderLocationInfo": {
+            "latitude": 50.4506161,
+            "longitude": 30.4991637
+        },
+        "courier": {
+            "courierId": "194e476f-31fa-4461-ba7a-3c7c629d4fe8",
+            "location": {
+                "latitude": 50.436900705,
+                "longitude": 30.500554238
+            }
+        },
+        "address": "Бульварно-Кудрявська вул., 29Е"
+    },
+    {
+        "id": "139dd0d6-0d58-40aa-9ebb-751150157ee8",
+        "number": "11784",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "17:17:00",
+        "orderLocationInfo": {
+            "latitude": 50.4524635,
+            "longitude": 30.4457911
+        },
+        "courier": {
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
+            "location": {
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
+            }
+        },
+        "address": "Гетьмана Вадима вул., 1Б"
+    },
+    {
+        "id": "606b9212-1077-4987-afcb-2c5b6d4d49ab",
+        "number": "25799",
+        "status": "Доставлена",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K5 Деміївська",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-0d2f7b1b8586",
+        "deadline": "17:26:30",
+        "orderLocationInfo": {
+            "latitude": 50.3925899,
+            "longitude": 30.4924129
+        },
+        "courier": {
+            "courierId": "f137ad63-9314-477a-a362-790d1ec2b7d0",
+            "location": {
+                "latitude": 50.400053617,
+                "longitude": 30.507934674
+            }
+        },
+        "address": "Коломийський пров., 18/1"
+    },
+    {
+        "id": "0a978832-3b11-4ebb-9c9d-77e05a357bc1",
+        "number": "11785",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "17:39:31",
+        "orderLocationInfo": {
+            "latitude": 50.4423292,
+            "longitude": 30.4338925
+        },
+        "courier": {
+            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
+            "location": {
+                "latitude": 50.427995,
+                "longitude": 30.3953267
+            }
+        },
+        "address": "Борщагівська вул., 210"
+    },
+    {
+        "id": "817af028-e4d8-4784-ac12-b610ae8f721c",
+        "number": "56855",
+        "status": "Доставлена",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "17:43:35",
+        "orderLocationInfo": {
+            "latitude": 50.4649824,
+            "longitude": 30.4691654
+        },
+        "courier": {
+            "courierId": "cd542f18-397a-47e2-9f74-f9747d4774bb",
+            "location": {
+                "latitude": 50.451195,
+                "longitude": 30.5059337
+            }
+        },
+        "address": "Деревлянська вул., 19"
+    },
+    {
+        "id": "b85d78d9-0b83-445f-ad4e-447b3d0a3b4b",
+        "number": "57421",
+        "status": "В пути",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К2 Гуцала",
         "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
-        "deadline": "21:47:18",
+        "deadline": "17:50:11",
         "orderLocationInfo": {
-            "latitude": 50.4356522,
-            "longitude": 30.5041295
+            "latitude": 50.425686,
+            "longitude": 30.5171221
         },
         "courier": {
-            "courierId": "2a9a9b40-94ec-43f7-aafd-b2ab9967d5cf",
+            "courierId": "1f0625c5-ac47-4bf5-bc2e-4b0fce1508be",
             "location": {
-                "latitude": 50.4221903,
-                "longitude": 30.4718338
+                "latitude": 50.4311473,
+                "longitude": 30.5394727
             }
         },
-        "address": "Жилянська вул., 58"
+        "address": "Велика Васильківська вул., 102"
     },
     {
-        "id": "95eca4f6-a33f-4e5a-a6da-538c23d2d40c",
-        "number": "10617",
-        "status": "CLOSED",
+        "id": "8c823e78-6e92-4895-8cd7-0a4ce9ea2ae1",
+        "number": "91",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "Л2 Довженко",
+        "deliveryTerminalId": "de1406d0-29b2-d1bb-0184-4cd2aa540ab9",
+        "deadline": "17:53:05",
+        "orderLocationInfo": {
+            "latitude": 49.8458304,
+            "longitude": 23.9981342
+        },
+        "courier": {
+            "courierId": "868844d0-c0c2-4129-87bb-777f1a582167",
+            "location": {
+                "latitude": 49.7968638,
+                "longitude": 24.0539864
+            }
+        },
+        "address": "вул. Бортнянського, 58"
+    },
+    {
+        "id": "77a363d3-6992-4f0d-9450-536c2ce66436",
+        "number": "56857",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "17:53:30",
+        "orderLocationInfo": {
+            "latitude": 50.437454,
+            "longitude": 30.500891
+        },
+        "courier": {
+            "courierId": "194e476f-31fa-4461-ba7a-3c7c629d4fe8",
+            "location": {
+                "latitude": 50.436900705,
+                "longitude": 30.500554238
+            }
+        },
+        "address": "Жилянська вул., 55"
+    },
+    {
+        "id": "b8ad41b7-1454-4629-af02-7cc01788f1a1",
+        "number": "57422",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К2 Гуцала",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
+        "deadline": "17:53:43",
+        "orderLocationInfo": {
+            "latitude": 50.4394998,
+            "longitude": 30.5450222
+        },
+        "courier": {
+            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
+            "location": {
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
+            }
+        },
+        "address": "Московська вул. Печерськ, 15"
+    },
+    {
+        "id": "ee0ec573-4c54-44cd-b4f6-e27411d13f27",
+        "number": "23294",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К6 Соборности",
+        "deliveryTerminalId": "9c8217c9-b0c5-5156-017a-8073f2d2b229",
+        "deadline": "17:54:07",
+        "orderLocationInfo": {
+            "latitude": 50.4572302,
+            "longitude": 30.6503676
+        },
+        "courier": {
+            "courierId": "5fa7cac1-4e36-470f-b26c-0faccece9da0",
+            "location": {
+                "latitude": 50.456838571,
+                "longitude": 30.651009483
+            }
+        },
+        "address": "Червоноткацька вул., 93"
+    },
+    {
+        "id": "501dc205-3093-49f9-be0f-b301f6397248",
+        "number": "23295",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К6 Соборности",
+        "deliveryTerminalId": "9c8217c9-b0c5-5156-017a-8073f2d2b229",
+        "deadline": "17:56:17",
+        "orderLocationInfo": {
+            "latitude": 50.43962,
+            "longitude": 30.652411
+        },
+        "courier": {
+            "courierId": "6773018d-2148-483a-97a3-97e9d176d6a8",
+            "location": {
+                "latitude": 50.437328198,
+                "longitude": 30.64978102
+            }
+        },
+        "address": "Новаторів вул., 22в"
+    },
+    {
+        "id": "2251d1ce-346a-4b87-b5fc-126beb4a73d1",
+        "number": "11776",
+        "status": "В пути",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К8 Щербаковского",
         "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "21:50:12",
+        "deadline": "18:00:10",
         "orderLocationInfo": {
-            "latitude": 50.4742654,
-            "longitude": 30.4458733
+            "latitude": 50.4280217,
+            "longitude": 30.3955991
         },
         "courier": {
-            "courierId": "76f60523-8e2e-44cc-8cf2-5bf77ed75979",
+            "courierId": "54d938e8-31d2-46fd-b8e8-6741fe988c32",
             "location": {
-                "latitude": 50.4620816,
-                "longitude": 30.4066123
+                "latitude": 50.427995,
+                "longitude": 30.3953267
             }
         },
-        "address": "Щусєва вул., 8"
+        "address": "Корольова Академіка вул., 2а"
     },
     {
-        "id": "d0f691b4-3551-48b9-835c-c69e7004bd61",
-        "number": "10618",
-        "status": "ON_WAY",
+        "id": "355d0f1f-2e3d-447c-801f-5c1bba7b983c",
+        "number": "33608",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "K4 Драгоманова",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-2132124f359c",
+        "deadline": "18:00:15",
+        "orderLocationInfo": {
+            "latitude": 50.3912652,
+            "longitude": 30.6270993
+        },
+        "courier": {
+            "courierId": "0a90a9a1-047f-4701-af00-2413e7506e7f",
+            "location": {
+                "latitude": 50.3940187,
+                "longitude": 30.6353581
+            }
+        },
+        "address": "Чавдар Єлизавети вул., 38"
+    },
+    {
+        "id": "f3387a56-a389-483b-b6b7-bca3b53ff4e0",
+        "number": "57418",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К2 Гуцала",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
+        "deadline": "18:00:48",
+        "orderLocationInfo": {
+            "latitude": 50.4278642,
+            "longitude": 30.5252742
+        },
+        "courier": {
+            "courierId": "9a91b60e-0411-4f57-91f9-ceb32122062f",
+            "location": {
+                "latitude": 50.4315883,
+                "longitude": 30.5415613
+            }
+        },
+        "address": "Лабораторний пров., 7"
+    },
+    {
+        "id": "7963a81a-beeb-453d-ae32-cf5dd9659ed4",
+        "number": "57411",
+        "status": "В пути",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К2 Гуцала",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-10f85c4de7e5",
+        "deadline": "18:00:58",
+        "orderLocationInfo": {
+            "latitude": 50.4373363,
+            "longitude": 30.5451158
+        },
+        "courier": {
+            "courierId": "74e79e2c-5d43-4a8d-85fa-46770a612793",
+            "location": {
+                "latitude": 50.431629039,
+                "longitude": 30.541823519
+            }
+        },
+        "address": "Московська вул. Печерськ, 29а"
+    },
+    {
+        "id": "edfdfc28-30a3-4d27-a571-104808204b55",
+        "number": "56854",
+        "status": "Закрыта",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К1 Січових стрільців",
+        "deliveryTerminalId": "a8fafd7f-12a9-ff99-0179-1c5bded3740d",
+        "deadline": "18:08:33",
+        "orderLocationInfo": {
+            "latitude": 50.4225354,
+            "longitude": 30.4734907
+        },
+        "courier": {
+            "courierId": "72df1852-613f-4a92-b4bc-83e7b402e6e7",
+            "location": {
+                "latitude": 50.4225267,
+                "longitude": 30.4734197
+            }
+        },
+        "address": "Олексіївська вул., 10/12"
+    },
+    {
+        "id": "d218f3e9-2ed5-4741-a124-980fca2ad7ad",
+        "number": "11789",
+        "status": "Доставлена",
         "type": "DELIVERY_BY_COURIER",
         "kitchen": "К8 Щербаковского",
         "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
-        "deadline": "22:25:22",
+        "deadline": "18:09:46",
         "orderLocationInfo": {
-            "latitude": 50.4453938,
-            "longitude": 30.434602
+            "latitude": 50.4787801,
+            "longitude": 30.3953204
         },
         "courier": {
-            "courierId": "f84fd103-94cf-4228-85e8-a8b2f947496b",
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
             "location": {
-                "latitude": 50.462396465,
-                "longitude": 30.405929615
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
             }
         },
-        "address": "Тупікова Генерала вул., 8"
+        "address": "Тополева вул., 5"
+    },
+    {
+        "id": "3e8834af-ee6f-4aaf-a87a-789bc718adc1",
+        "number": "11792",
+        "status": "Готовится",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "18:15:34",
+        "orderLocationInfo": {
+            "latitude": 50.457555,
+            "longitude": 30.4084839
+        },
+        "courier": {
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
+            "location": {
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
+            }
+        },
+        "address": "Перемоги пр-т, 67в"
+    },
+    {
+        "id": "6f7269e3-38fd-405d-83ea-a506e9046665",
+        "number": "11791",
+        "status": "Готовится",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "18:45:12",
+        "orderLocationInfo": {
+            "latitude": 50.4301574,
+            "longitude": 30.3933547
+        },
+        "courier": {
+            "courierId": "7d6f5372-0391-430c-b459-d5ddb0139dd0",
+            "location": {
+                "latitude": 50.4380797,
+                "longitude": 30.4749393
+            }
+        },
+        "address": "Корольова Академіка вул., 10а"
+    },
+    {
+        "id": "e09c8859-4745-49cb-bfbf-e9c407ba7d55",
+        "number": "11797",
+        "status": "Готовится",
+        "type": "DELIVERY_BY_COURIER",
+        "kitchen": "К8 Щербаковского",
+        "deliveryTerminalId": "91b261a5-bf0b-cd12-017e-05fef3cee03b",
+        "deadline": "18:46:01",
+        "orderLocationInfo": {
+            "latitude": 50.450981,
+            "longitude": 30.3513479
+        },
+        "courier": {
+            "courierId": "f77c47be-b6a3-4b12-a832-844b9ab56ef4",
+            "location": {
+                "latitude": 50.4621536,
+                "longitude": 30.4065041
+            }
+        },
+        "address": "Верховинна вул., 91"
     }
 ]
