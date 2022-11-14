@@ -5,6 +5,7 @@ import { divIcon } from 'leaflet';
 import L from "leaflet";
 import CustomMarker from '../customMarker/CustomMarker';
 import RoutingMachine from '../routingMachine/RoutingMachine';
+import OrderBlock from '../orderBlock/OrderBlock';
 import './pin.scss';
 
 const Pin = (props) => {
@@ -34,7 +35,7 @@ const Pin = (props) => {
                 )
             })
             :
-            <div className='courier__order'>Вільний</div>
+            <p>Вільний</p>
         setContent(ordersList)
 
         /*Формируем маршрут */
@@ -93,7 +94,9 @@ const Pin = (props) => {
                     <Popup>
                         <div className='courier__name'>{name}</div>
                         <div className='courier__phone'>{phone}</div>
-                        {content}
+                        <ul className="sessions">
+                            {content}
+                        </ul>
                         <div
                             onClick={() => setShowRoute(!showRoute)}
                             className="courier__route-toggler">
@@ -115,21 +118,5 @@ const Pin = (props) => {
     )
 }
 
-
-const OrderBlock = (props) => {
-    const { status, deadline, address, number } = props.orderInfo;
-    const colorClass = status === "В пути" ? "green" : "gray"
-    const badgeName = status.toLowerCase();
-    return (
-        <>
-            <div className={`courier__order ${colorClass}`}>
-                <div className={`courier__order-badge ${colorClass}`}>{badgeName}</div>
-                <div>Номер: <span className="courier__order-number">{number}</span></div>
-                <div>Адрес: {address}</div>
-                <div>Дедлайн: {deadline}</div>
-            </div>
-        </>
-    )
-}
 
 export default Pin;
