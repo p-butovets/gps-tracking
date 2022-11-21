@@ -25,9 +25,9 @@ class IikoService extends Component {
         return res
     }
 
-    getAllOrders = async (token) => {
+    getActualOrders = async (token, mode) => {
         const today = moment().format().split('T')[0]
-        const allOrders = [];
+        const actualOrders = [];
         const params = {
             access_token: token,
             organization: this._apiOrganization,
@@ -35,15 +35,24 @@ class IikoService extends Component {
             dateFrom: today
         }
         const res = await this.getResource(`${this._apiBase}orders/deliveryOrders`, params)
-        res.deliveryOrders.forEach(order => {
-            if (order.courierInfo && order.courierInfo.location && order.orderLocationInfo) {
-                allOrders.push(this._transformOrder(order))
-            }
-        })
-        return allOrders;
+
+        switch (mode) {
+            case 'ACTUAL':
+                res.deliveryOrders.forEach(order => {
+                    if (order.courierInfo && order.courierInfo.location && order.orderLocationInfo) {
+                        actualOrders.push(this._transformOrderForRadar(order))
+                    }
+                })
+                return actualOrders;
+            case 'ALL':
+                res.deliveryOrders.forEach(order => {
+                    actualOrders.push(this._transformOrderForList(order))
+                })
+                return actualOrders;
+        }
     }
 
-    _transformOrder = (order) => {
+    _transformOrderForRadar = (order) => {
         return {
             id: order.orderId,
             number: order.number,
@@ -61,6 +70,20 @@ class IikoService extends Component {
                 }
             },
             address: `${order.address.street}, ${order.address.home}`
+        }
+    }
+
+    _transformOrderForList = (order) => {
+        return {
+            id: order.orderId,
+            number: order.number,
+            status: order.status,
+            type: order.orderType.orderServiceType,
+            // kitchen: order.deliveryTerminal.restaurantName,
+            // deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
+            // deadline: order.deliveryDate.split(' ')[1],
+            // address: `${order.address.street}, ${order.address.home}`,
+            items: order.items
         }
     }
 

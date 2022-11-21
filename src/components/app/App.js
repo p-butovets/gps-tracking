@@ -15,8 +15,12 @@ function App() {
 
 	/*храним доставочные терминалы */
 	const [terminals, setTerminals] = useState([]);
-	/*храним список заказов*/
+	/*храним список заказов для радара 
+	- отличие от allOrders:
+	для actualOrders только заказы с назначеными курьерами*/
 	const [actualOrders, setActualOrders] = useState(null);
+	/*allOrders все заказы без закрытых и отмененных */
+	const [allOrders, setAllOrders] = useState(null);
 	/* Каких курьеров показывать */
 	const [visbleTerminal, setVisibleTerminal] = useState(null);
 	/*iiko token */
@@ -58,14 +62,15 @@ function App() {
 
 
 	/*work with orders */
-	const onOrdersRefreshed = (orders) => {
+	const onRadarOrdersRefreshed = (orders) => {
 		onLoaded();
 		setActualOrders(orders);
 	};
 
 	const refreshOrders = (token) => {
 		if (token) {
-			iikoservice.getAllOrders(token).then(onOrdersRefreshed);
+			iikoservice.getActualOrders(token, "ACTUAL").then(onRadarOrdersRefreshed);
+			iikoservice.getActualOrders(token, "ALL").then(orders => setAllOrders(orders));
 		}
 	};
 
@@ -183,14 +188,13 @@ const View = (props) => {
 		<>
 			<Heading text="GPS Radar" />
 			<ButtonGroup terminals={terminals} setVisibleTerminal={setVisibleTerminal} />
-			<section>
-				<Mapp
-					couriers={couriers}
-					visbleTerminal={visbleTerminal}
-					token={token}
-					actualOrders={actualOrders}
-				/>
-			</section>
+			<Mapp
+				couriers={couriers}
+				visbleTerminal={visbleTerminal}
+				token={token}
+				actualOrders={actualOrders}
+			/>
+			<Heading text="Список заказов" />
 		</>
 	)
 }
