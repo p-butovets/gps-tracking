@@ -4,6 +4,7 @@ import Spinner from "../spinner/Spinner";
 import Heading from '../heading/Heading';
 import ButtonGroup from '../buttonGroup/ButtonGroup';
 import Mapp from '../mapp/Mapp';
+import OrdersList from '../ordersList/OrdersList';
 
 import './app.scss';
 import terminalsLocationData from '../../data/terminalsLocationData.json';
@@ -175,6 +176,7 @@ function App() {
 					visbleTerminal={visbleTerminal}
 					token={token}
 					actualOrders={actualOrders}
+					allOrders={allOrders}
 				/>}
 		</div>
 	);
@@ -182,7 +184,7 @@ function App() {
 
 const View = (props) => {
 
-	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token, actualOrders } = props;
+	const { terminals, setVisibleTerminal, couriers, visbleTerminal, token, actualOrders, allOrders } = props;
 
 	return (
 		<>
@@ -194,7 +196,11 @@ const View = (props) => {
 				token={token}
 				actualOrders={actualOrders}
 			/>
-			<Heading text="Список заказов" />
+			<Heading text="Замовлення" />
+			{allOrders
+				? <OrdersList allOrders={allOrders} />
+				: <Spinner />
+			}
 		</>
 	)
 }
