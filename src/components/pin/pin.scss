@@ -1,42 +1,24 @@
+@import "../../style/variables.scss";
+
 .courier {
-	color: #000000;
 	&__name {
-		font-weight: 800;
-	}
-	&__order {
-		position: relative;
-		border-radius: 10px;
-		padding: 9px 5px;
-		margin: 5px;
-		min-width: 93%;
-		&-number {
-			font-weight: 800;
-		}
-		&-badge {
-			border-radius: 7px;
-			padding: 2px 3px;
-			display: inline-block;
-			position: absolute;
-			top: 3px;
-			right: 3px;
-		}
+		font-weight: 700;
+		font-size: 1.2em;
 	}
 	&__route-toggler {
 		display: block;
-		color: #f47a44;
+		color: $primary-color;
 		min-width: 93%;
 		border-radius: 7px;
-		border: solid 1px #f47a44;
+		border: solid 1px $primary-color;
 		padding: 9px 5px;
 		text-align: center;
 		cursor: pointer;
 	}
 }
 
-.green {
-	border: solid 1px #3ebd17;
-}
-
-.gray {
-	border: 1px solid #777;
+.sessions {
+	margin-top: 2rem;
+	border-radius: 12px;
+	position: relative;
 }

@@ -1,21 +1,21 @@
-$color: #eb5e28;
+@import "../../style/variables.scss";
 
 .button {
-	color: $color;
+	color: $primary-color;
 	display: inline-block;
 	padding: 0.5em 1em;
 	border-radius: 0.5em;
-	border: $color 1px solid;
+	border: $primary-color 1px solid;
 	font-weight: 400;
 	font-size: 11px;
 	transition: all 0.2s;
 	cursor: pointer;
 	&:hover {
-		background-color: $color;
+		background-color: $primary-color;
 		color: #fff;
 	}
 	&-active {
-		background-color: $color;
+		background-color: $primary-color;
 		color: #fff;
 	}
 }

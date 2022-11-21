@@ -1,0 +1,23 @@
+@import "../../style/variables.scss";
+
+.badge {
+	position: absolute;
+	top: 0px;
+	right: 0;
+	color: #fff;
+	padding: 2px 3px;
+	border-radius: 5px;
+}
+
+.green {
+	background: $success-color;
+}
+
+.gray {
+	background: $line-color;
+}
+
+.yellow {
+	background: $pending-color;
+	color: #000;
+}

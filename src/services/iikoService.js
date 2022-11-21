@@ -36,7 +36,7 @@ class IikoService extends Component {
         }
         const res = await this.getResource(`${this._apiBase}orders/deliveryOrders`, params)
         res.deliveryOrders.forEach(order => {
-            if (order.courierInfo && order.courierInfo.location) {
+            if (order.courierInfo && order.courierInfo.location && order.orderLocationInfo) {
                 allOrders.push(this._transformOrder(order))
             }
         })
@@ -47,7 +47,7 @@ class IikoService extends Component {
         return {
             id: order.orderId,
             number: order.number,
-            status: order.statusCode,
+            status: order.status,
             type: order.orderType.orderServiceType,
             kitchen: order.deliveryTerminal.restaurantName,
             deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
