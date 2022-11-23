@@ -1,1 +1,15 @@
 @import "../../style/variables.scss";
+
+.o-list-header {
+	display: grid;
+	grid-auto-columns: 1fr;
+	grid-template-columns: 0.2fr 0.2fr 0.3fr 0.5fr 0.5fr 1fr 0.5fr;
+	gap: 0px 0px;
+	padding: 0.1em 0.5em;
+	&__item {
+		font-weight: 400;
+		font-size: 11px;
+		margin: 0.5em 0.5em;
+		color: #ccc5b9;
+	}
+}

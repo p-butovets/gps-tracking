@@ -74,15 +74,36 @@ class IikoService extends Component {
     }
 
     _transformOrderForList = (order) => {
+        // console.log(order)
+
+        /*может не быть назначеной кухни*/
+        let kitchen = 'Не призначено';
+        if (order.deliveryTerminal) {
+            kitchen = order.deliveryTerminal.restaurantName
+        }
+
+        /*может не быть адреса доставки*/
+        let address = 'Не призначено';
+        if (order.address) {
+            address = `${order.address.street}, ${order.address.home}`
+        }
+
+        /*если курьер не назначен */
+        let courierId;
+        if (order.courierInfo) {
+            courierId = order.courierInfo.courierId
+        }
+
         return {
             id: order.orderId,
             number: order.number,
             status: order.status,
             type: order.orderType.orderServiceType,
-            // kitchen: order.deliveryTerminal.restaurantName,
-            // deliveryTerminalId: order.deliveryTerminal.deliveryTerminalId,
-            // deadline: order.deliveryDate.split(' ')[1],
-            // address: `${order.address.street}, ${order.address.home}`,
+            kitchen: kitchen,
+            deadline: order.deliveryDate.split(' ')[1],
+            created: order.createdTime.split(' ')[1],
+            address: address,
+            courierId: courierId,
             items: order.items
         }
     }

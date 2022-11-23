@@ -196,9 +196,9 @@ const View = (props) => {
 				token={token}
 				actualOrders={actualOrders}
 			/>
-			<Heading text="Замовлення" />
+			<Heading text="Замовлення (тестування)" />
 			{allOrders
-				? <OrdersList allOrders={allOrders} />
+				? <OrdersList token={token} allOrders={allOrders} />
 				: <Spinner />
 			}
 		</>

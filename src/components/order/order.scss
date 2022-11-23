@@ -1,0 +1,28 @@
+@import "../../style/variables.scss";
+
+.o {
+	&-status {
+		text-align: center;
+		padding: 2px 3px;
+		border-radius: 5px;
+	}
+	&-number {
+		font-weight: 700;
+	}
+	&-kitchen {
+		padding-left: 30px;
+	}
+	&-list-item {
+		padding: 0.5em 1em;
+		border-radius: 0.5em;
+		border: $unactive-color 1px solid;
+		font-weight: 400;
+		font-size: 13px;
+		margin: 0.5em 0.5em;
+
+		display: grid;
+		grid-auto-columns: 1fr;
+		grid-template-columns: 0.2fr 0.2fr 0.3fr 0.5fr 0.5fr 1fr 0.5fr;
+		gap: 0px 0px;
+	}
+}
